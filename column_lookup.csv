@@ -1,0 +1,631 @@
+new_name,variable_name,description
+country_economy_three_letter_code,CNTRY,Country/economy three-letter code.
+numeric_country_economy_code,IDCNTRY,Numeric country/economy code.
+country_economy_plus_target_population_identifier,IDCNTPOP,Country/economy plus target-population identifier.
+school_identifier,IDSCHOOL,School identifier.
+teacher_identifier,IDTEACH,Teacher identifier.
+teacher_questionnaire_version_type_identifier,IDTQUEST,Teacher questionnaire version/type identifier.
+teacher_questionnaire_language_identifier,IDLANG_TQ,Teacher questionnaire language identifier.
+teacher_questionnaire_administration_mode,ITMODE_TQ,Teacher questionnaire administration mode.
+gender,TT4G01,Gender.
+type_of_education_completed_for_first_teaching_qualification,TT4G04,Type of education completed for first teaching qualification.
+agreement_with_statements_about_the_first_teaching_qualifica_a,TT4G06A,Agreement with statements about the first teaching qualification. Item A.
+agreement_with_statements_about_the_first_teaching_qualifica_b,TT4G06B,Agreement with statements about the first teaching qualification. Item B.
+agreement_with_statements_about_the_first_teaching_qualifica_c,TT4G06C,Agreement with statements about the first teaching qualification. Item C.
+agreement_with_statements_about_the_first_teaching_qualifica_d,TT4G06D,Agreement with statements about the first teaching qualification. Item D.
+agreement_with_statements_about_the_first_teaching_qualifica_e,TT4G06E,Agreement with statements about the first teaching qualification. Item E.
+agreement_with_statements_about_the_first_teaching_qualifica_f,TT4G06F,Agreement with statements about the first teaching qualification. Item F.
+extent_to_which_formal_education_training_prepared_the_teach_a,TT4G07A,Extent to which formal education/training prepared the teacher for teaching aspects. Item A.
+extent_to_which_formal_education_training_prepared_the_teach_b,TT4G07B,Extent to which formal education/training prepared the teacher for teaching aspects. Item B.
+extent_to_which_formal_education_training_prepared_the_teach_c,TT4G07C,Extent to which formal education/training prepared the teacher for teaching aspects. Item C.
+extent_to_which_formal_education_training_prepared_the_teach_d,TT4G07D,Extent to which formal education/training prepared the teacher for teaching aspects. Item D.
+extent_to_which_formal_education_training_prepared_the_teach_e,TT4G07E,Extent to which formal education/training prepared the teacher for teaching aspects. Item E.
+extent_to_which_formal_education_training_prepared_the_teach_f,TT4G07F,Extent to which formal education/training prepared the teacher for teaching aspects. Item F.
+extent_to_which_formal_education_training_prepared_the_teach_g,TT4G07G,Extent to which formal education/training prepared the teacher for teaching aspects. Item G.
+extent_to_which_formal_education_training_prepared_the_teach_i,TT4G07I,Extent to which formal education/training prepared the teacher for teaching aspects. Item I.
+extent_to_which_formal_education_training_prepared_the_teach_j,TT4G07J,Extent to which formal education/training prepared the teacher for teaching aspects. Item J.
+whether_teaching_was_the_teacher_s_first_career_choice,TT4G08,Whether teaching was the teacher's first career choice.
+employment_status_as_a_teacher_at_this_school,TT4G09,Employment status as a teacher at this school.
+whether_the_teacher_works_as_an_isced_level_x_teacher_at_ano,TT4G10,Whether the teacher works as an ISCED level x teacher at another school.
+total_job_related_working_hours_in_the_most_recent_complete,TT4G14,Total job-related working hours in the most recent complete calendar week.
+teaching_hours_at_this_school_in_the_most_recent_complete_ca,TT4G15,Teaching hours at this school in the most recent complete calendar week.
+hours_spent_on_non_teaching_work_tasks_in_the_most_recent_co_a,TT4G16A,Hours spent on non-teaching work tasks in the most recent complete calendar week. Item A.
+hours_spent_on_non_teaching_work_tasks_in_the_most_recent_co_b,TT4G16B,Hours spent on non-teaching work tasks in the most recent complete calendar week. Item B.
+hours_spent_on_non_teaching_work_tasks_in_the_most_recent_co_c,TT4G16C,Hours spent on non-teaching work tasks in the most recent complete calendar week. Item C.
+hours_spent_on_non_teaching_work_tasks_in_the_most_recent_co_d,TT4G16D,Hours spent on non-teaching work tasks in the most recent complete calendar week. Item D.
+hours_spent_on_non_teaching_work_tasks_in_the_most_recent_co_e,TT4G16E,Hours spent on non-teaching work tasks in the most recent complete calendar week. Item E.
+hours_spent_on_non_teaching_work_tasks_in_the_most_recent_co_f,TT4G16F,Hours spent on non-teaching work tasks in the most recent complete calendar week. Item F.
+hours_spent_on_non_teaching_work_tasks_in_the_most_recent_co_g,TT4G16G,Hours spent on non-teaching work tasks in the most recent complete calendar week. Item G.
+hours_spent_on_non_teaching_work_tasks_in_the_most_recent_co_h,TT4G16H,Hours spent on non-teaching work tasks in the most recent complete calendar week. Item H.
+hours_spent_on_non_teaching_work_tasks_in_the_most_recent_co_i,TT4G16I,Hours spent on non-teaching work tasks in the most recent complete calendar week. Item I.
+hours_spent_on_non_teaching_work_tasks_in_the_most_recent_co_j,TT4G16J,Hours spent on non-teaching work tasks in the most recent complete calendar week. Item J.
+whether_the_teacher_took_part_in_formal_or_informal_inductio_a,TT4G17A,Whether the teacher took part in formal or informal induction activities at this school. Item A.
+whether_the_teacher_took_part_in_formal_or_informal_inductio_b,TT4G17B,Whether the teacher took part in formal or informal induction activities at this school. Item B.
+provisions_included_in_induction_at_this_school_a,TT4G18A,Provisions included in induction at this school. Item A.
+provisions_included_in_induction_at_this_school_b,TT4G18B,Provisions included in induction at this school. Item B.
+provisions_included_in_induction_at_this_school_c,TT4G18C,Provisions included in induction at this school. Item C.
+provisions_included_in_induction_at_this_school_d,TT4G18D,Provisions included in induction at this school. Item D.
+provisions_included_in_induction_at_this_school_e,TT4G18E,Provisions included in induction at this school. Item E.
+provisions_included_in_induction_at_this_school_f,TT4G18F,Provisions included in induction at this school. Item F.
+provisions_included_in_induction_at_this_school_g,TT4G18G,Provisions included in induction at this school. Item G.
+provisions_included_in_induction_at_this_school_h,TT4G18H,Provisions included in induction at this school. Item H.
+provisions_included_in_induction_at_this_school_i,TT4G18I,Provisions included in induction at this school. Item I.
+provisions_included_in_induction_at_this_school_j,TT4G18J,Provisions included in induction at this school. Item J.
+provisions_included_in_induction_at_this_school_k,TT4G18K,Provisions included in induction at this school. Item K.
+current_involvement_in_formal_mentoring_activities_a,TT4G19A,Current involvement in formal mentoring activities. Item A.
+current_involvement_in_formal_mentoring_activities_b,TT4G19B,Current involvement in formal mentoring activities. Item B.
+professional_learning_activities_participated_in_during_the_a,TT4G20A,Professional learning activities participated in during the last 12 months. Item A.
+professional_learning_activities_participated_in_during_the_b,TT4G20B,Professional learning activities participated in during the last 12 months. Item B.
+professional_learning_activities_participated_in_during_the_c,TT4G20C,Professional learning activities participated in during the last 12 months. Item C.
+professional_learning_activities_participated_in_during_the_d,TT4G20D,Professional learning activities participated in during the last 12 months. Item D.
+professional_learning_activities_participated_in_during_the_e,TT4G20E,Professional learning activities participated in during the last 12 months. Item E.
+professional_learning_activities_participated_in_during_the_f,TT4G20F,Professional learning activities participated in during the last 12 months. Item F.
+professional_learning_activities_participated_in_during_the_g,TT4G20G,Professional learning activities participated in during the last 12 months. Item G.
+professional_learning_activities_participated_in_during_the_h,TT4G20H,Professional learning activities participated in during the last 12 months. Item H.
+professional_learning_activities_participated_in_during_the_i,TT4G20I,Professional learning activities participated in during the last 12 months. Item I.
+professional_learning_activities_participated_in_during_the_j,TT4G20J,Professional learning activities participated in during the last 12 months. Item J.
+topics_included_in_professional_learning_activities_during_t_a,TT4G21A,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item A."
+topics_included_in_professional_learning_activities_during_t_b,TT4G21B,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item B."
+topics_included_in_professional_learning_activities_during_t_c,TT4G21C,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item C."
+topics_included_in_professional_learning_activities_during_t_d,TT4G21D,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item D."
+topics_included_in_professional_learning_activities_during_t_e,TT4G21E,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item E."
+topics_included_in_professional_learning_activities_during_t_f,TT4G21F,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item F."
+topics_included_in_professional_learning_activities_during_t_g,TT4G21G,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item G."
+topics_included_in_professional_learning_activities_during_t_h,TT4G21H,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item H."
+topics_included_in_professional_learning_activities_during_t_i,TT4G21I,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item I."
+topics_included_in_professional_learning_activities_during_t_j,TT4G21J,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item J."
+topics_included_in_professional_learning_activities_during_t_k,TT4G21K,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item K."
+topics_included_in_professional_learning_activities_during_t_l,TT4G21L,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item L."
+topics_included_in_professional_learning_activities_during_t_m,TT4G21M,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item M."
+topics_included_in_professional_learning_activities_during_t_n,TT4G21N,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item N."
+topics_included_in_professional_learning_activities_during_t_o,TT4G21O,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item O."
+topics_included_in_professional_learning_activities_during_t_q,TT4G21Q,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item Q."
+topics_included_in_professional_learning_activities_during_t_r,TT4G21R,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item R."
+topics_included_in_professional_learning_activities_during_t_s,TT4G21S,"Topics included in professional learning activities during the last 12 months, including digital resources, artificial intelligence, special education needs, social/emotional learning, and environmental sustainability. Item S."
+impact_of_professional_learning_activities,TT4G22,Impact of professional learning activities.
+need_for_professional_learning_in_listed_topic_areas_a,TT4G23A,Need for professional learning in listed topic areas. Item A.
+need_for_professional_learning_in_listed_topic_areas_b,TT4G23B,Need for professional learning in listed topic areas. Item B.
+need_for_professional_learning_in_listed_topic_areas_c,TT4G23C,Need for professional learning in listed topic areas. Item C.
+need_for_professional_learning_in_listed_topic_areas_d,TT4G23D,Need for professional learning in listed topic areas. Item D.
+need_for_professional_learning_in_listed_topic_areas_e,TT4G23E,Need for professional learning in listed topic areas. Item E.
+need_for_professional_learning_in_listed_topic_areas_f,TT4G23F,Need for professional learning in listed topic areas. Item F.
+need_for_professional_learning_in_listed_topic_areas_g,TT4G23G,Need for professional learning in listed topic areas. Item G.
+need_for_professional_learning_in_listed_topic_areas_h,TT4G23H,Need for professional learning in listed topic areas. Item H.
+need_for_professional_learning_in_listed_topic_areas_i,TT4G23I,Need for professional learning in listed topic areas. Item I.
+need_for_professional_learning_in_listed_topic_areas_j,TT4G23J,Need for professional learning in listed topic areas. Item J.
+need_for_professional_learning_in_listed_topic_areas_k,TT4G23K,Need for professional learning in listed topic areas. Item K.
+need_for_professional_learning_in_listed_topic_areas_l,TT4G23L,Need for professional learning in listed topic areas. Item L.
+barriers_that_prevented_participation_in_desired_professiona_a,TT4G24A,Barriers that prevented participation in desired professional learning. Item A.
+barriers_that_prevented_participation_in_desired_professiona_b,TT4G24B,Barriers that prevented participation in desired professional learning. Item B.
+barriers_that_prevented_participation_in_desired_professiona_c,TT4G24C,Barriers that prevented participation in desired professional learning. Item C.
+barriers_that_prevented_participation_in_desired_professiona_d,TT4G24D,Barriers that prevented participation in desired professional learning. Item D.
+barriers_that_prevented_participation_in_desired_professiona_e,TT4G24E,Barriers that prevented participation in desired professional learning. Item E.
+barriers_that_prevented_participation_in_desired_professiona_f,TT4G24F,Barriers that prevented participation in desired professional learning. Item F.
+barriers_that_prevented_participation_in_desired_professiona_g,TT4G24G,Barriers that prevented participation in desired professional learning. Item G.
+barriers_that_prevented_participation_in_desired_professiona_h,TT4G24H,Barriers that prevented participation in desired professional learning. Item H.
+barriers_that_prevented_participation_in_desired_professiona_i,TT4G24I,Barriers that prevented participation in desired professional learning. Item I.
+barriers_that_prevented_participation_in_desired_professiona_j,TT4G24J,Barriers that prevented participation in desired professional learning. Item J.
+barriers_that_prevented_participation_in_desired_professiona_k,TT4G24K,Barriers that prevented participation in desired professional learning. Item K.
+barriers_that_prevented_participation_in_desired_professiona_l,TT4G24L,Barriers that prevented participation in desired professional learning. Item L.
+barriers_that_prevented_participation_in_desired_professiona_m,TT4G24M,Barriers that prevented participation in desired professional learning. Item M.
+barriers_that_prevented_participation_in_desired_professiona_n,TT4G24N,Barriers that prevented participation in desired professional learning. Item N.
+barriers_that_prevented_participation_in_desired_professiona_o,TT4G24O,Barriers that prevented participation in desired professional learning. Item O.
+barriers_that_prevented_participation_in_desired_professiona_q,TT4G24Q,Barriers that prevented participation in desired professional learning. Item Q.
+barriers_that_prevented_participation_in_desired_professiona_r,TT4G24R,Barriers that prevented participation in desired professional learning. Item R.
+professional_collaboration_and_exchange_with_colleagues_a,TT4G25A,Professional collaboration and exchange with colleagues. Item A.
+professional_collaboration_and_exchange_with_colleagues_b,TT4G25B,Professional collaboration and exchange with colleagues. Item B.
+professional_collaboration_and_exchange_with_colleagues_c,TT4G25C,Professional collaboration and exchange with colleagues. Item C.
+professional_collaboration_and_exchange_with_colleagues_d,TT4G25D,Professional collaboration and exchange with colleagues. Item D.
+professional_collaboration_and_exchange_with_colleagues_e,TT4G25E,Professional collaboration and exchange with colleagues. Item E.
+professional_collaboration_and_exchange_with_colleagues_f,TT4G25F,Professional collaboration and exchange with colleagues. Item F.
+professional_collaboration_and_exchange_with_colleagues_g,TT4G25G,Professional collaboration and exchange with colleagues. Item G.
+professional_collaboration_and_exchange_with_colleagues_h,TT4G25H,Professional collaboration and exchange with colleagues. Item H.
+professional_collaboration_and_exchange_with_colleagues_i,TT4G25I,Professional collaboration and exchange with colleagues. Item I.
+feedback_received_about_teaching_a,TT4G26A,Feedback received about teaching. Item A.
+feedback_received_about_teaching_b,TT4G26B,Feedback received about teaching. Item B.
+feedback_received_about_teaching_c,TT4G26C,Feedback received about teaching. Item C.
+feedback_received_about_teaching_d,TT4G26D,Feedback received about teaching. Item D.
+feedback_received_about_teaching_e,TT4G26E,Feedback received about teaching. Item E.
+feedback_received_about_teaching_f,TT4G26F,Feedback received about teaching. Item F.
+feedback_received_about_teaching_g,TT4G26G,Feedback received about teaching. Item G.
+feedback_received_about_teaching_h,TT4G26H,Feedback received about teaching. Item H.
+perceived_impact_of_feedback_on_teaching_practice_a,TT4G27A,Perceived impact of feedback on teaching practice. Item A.
+perceived_impact_of_feedback_on_teaching_practice_b,TT4G27B,Perceived impact of feedback on teaching practice. Item B.
+perceived_impact_of_feedback_on_teaching_practice_c,TT4G27C,Perceived impact of feedback on teaching practice. Item C.
+perceived_impact_of_feedback_on_teaching_practice_d,TT4G27D,Perceived impact of feedback on teaching practice. Item D.
+perceived_impact_of_feedback_on_teaching_practice_e,TT4G27E,Perceived impact of feedback on teaching practice. Item E.
+perceived_impact_of_feedback_on_teaching_practice_f,TT4G27F,Perceived impact of feedback on teaching practice. Item F.
+perceived_impact_of_feedback_on_teaching_practice_g,TT4G27G,Perceived impact of feedback on teaching practice. Item G.
+perceived_impact_of_feedback_on_teaching_practice_h,TT4G27H,Perceived impact of feedback on teaching practice. Item H.
+perceived_impact_of_feedback_on_teaching_practice_i,TT4G27I,Perceived impact of feedback on teaching practice. Item I.
+perceived_impact_of_feedback_on_teaching_practice_j,TT4G27J,Perceived impact of feedback on teaching practice. Item J.
+perceived_impact_of_feedback_on_teaching_practice_k,TT4G27K,Perceived impact of feedback on teaching practice. Item K.
+perceived_impact_of_feedback_on_teaching_practice_l,TT4G27L,Perceived impact of feedback on teaching practice. Item L.
+perceived_impact_of_feedback_on_teaching_practice_m,TT4G27M,Perceived impact of feedback on teaching practice. Item M.
+perceived_impact_of_feedback_on_teaching_practice_n,TT4G27N,Perceived impact of feedback on teaching practice. Item N.
+perceived_impact_of_feedback_on_teaching_practice_o,TT4G27O,Perceived impact of feedback on teaching practice. Item O.
+perceived_impact_of_feedback_on_teaching_practice_p,TT4G27P,Perceived impact of feedback on teaching practice. Item P.
+perceived_impact_of_feedback_on_teaching_practice_r,TT4G27R,Perceived impact of feedback on teaching practice. Item R.
+teacher_appraisal_and_review_practices_a,TT4G28A,Teacher appraisal and review practices. Item A.
+teacher_appraisal_and_review_practices_b,TT4G28B,Teacher appraisal and review practices. Item B.
+teacher_appraisal_and_review_practices_c,TT4G28C,Teacher appraisal and review practices. Item C.
+teacher_appraisal_and_review_practices_d,TT4G28D,Teacher appraisal and review practices. Item D.
+teacher_appraisal_and_review_practices_e,TT4G28E,Teacher appraisal and review practices. Item E.
+teacher_appraisal_and_review_practices_f,TT4G28F,Teacher appraisal and review practices. Item F.
+teacher_appraisal_and_review_practices_g,TT4G28G,Teacher appraisal and review practices. Item G.
+classroom_school_conditions_and_student_composition_a,TT4G30A,Classroom/school conditions and student composition. Item A.
+classroom_school_conditions_and_student_composition_b,TT4G30B,Classroom/school conditions and student composition. Item B.
+classroom_school_conditions_and_student_composition_c,TT4G30C,Classroom/school conditions and student composition. Item C.
+teacher_beliefs_and_attitudes_about_diversity_equity_a,TT4G31A,Teacher beliefs and attitudes about diversity/equity. Item A.
+teacher_beliefs_and_attitudes_about_diversity_equity_b,TT4G31B,Teacher beliefs and attitudes about diversity/equity. Item B.
+teacher_beliefs_and_attitudes_about_diversity_equity_c,TT4G31C,Teacher beliefs and attitudes about diversity/equity. Item C.
+teacher_beliefs_and_attitudes_about_diversity_equity_d,TT4G31D,Teacher beliefs and attitudes about diversity/equity. Item D.
+teacher_beliefs_and_attitudes_about_diversity_equity_e,TT4G31E,Teacher beliefs and attitudes about diversity/equity. Item E.
+teacher_beliefs_and_attitudes_about_diversity_equity_f,TT4G31F,Teacher beliefs and attitudes about diversity/equity. Item F.
+school_policies_or_practices_related_to_diversity_equity_a,TT4G32A,School policies or practices related to diversity/equity. Item A.
+school_policies_or_practices_related_to_diversity_equity_b,TT4G32B,School policies or practices related to diversity/equity. Item B.
+school_policies_or_practices_related_to_diversity_equity_c,TT4G32C,School policies or practices related to diversity/equity. Item C.
+teacher_practices_related_to_social_and_emotional_learning_a,TT4G33A,Teacher practices related to social and emotional learning. Item A.
+teacher_practices_related_to_social_and_emotional_learning_b,TT4G33B,Teacher practices related to social and emotional learning. Item B.
+teacher_practices_related_to_social_and_emotional_learning_c,TT4G33C,Teacher practices related to social and emotional learning. Item C.
+teacher_practices_related_to_social_and_emotional_learning_d,TT4G33D,Teacher practices related to social and emotional learning. Item D.
+teacher_practices_related_to_social_and_emotional_learning_e,TT4G33E,Teacher practices related to social and emotional learning. Item E.
+teacher_practices_related_to_social_and_emotional_learning_f,TT4G33F,Teacher practices related to social and emotional learning. Item F.
+teacher_practices_related_to_social_and_emotional_learning_g,TT4G33G,Teacher practices related to social and emotional learning. Item G.
+school_climate_safety_and_student_relations_a,TT4G34A,"School climate, safety, and student relations. Item A."
+school_climate_safety_and_student_relations_b,TT4G34B,"School climate, safety, and student relations. Item B."
+school_climate_safety_and_student_relations_c,TT4G34C,"School climate, safety, and student relations. Item C."
+school_climate_safety_and_student_relations_d,TT4G34D,"School climate, safety, and student relations. Item D."
+school_climate_safety_and_student_relations_e,TT4G34E,"School climate, safety, and student relations. Item E."
+school_climate_safety_and_student_relations_f,TT4G34F,"School climate, safety, and student relations. Item F."
+school_climate_safety_and_student_relations_g,TT4G34G,"School climate, safety, and student relations. Item G."
+school_climate_safety_and_student_relations_h,TT4G34H,"School climate, safety, and student relations. Item H."
+teacher_collaboration_and_professional_culture_a,TT4G35A,Teacher collaboration and professional culture. Item A.
+teacher_collaboration_and_professional_culture_b,TT4G35B,Teacher collaboration and professional culture. Item B.
+teacher_collaboration_and_professional_culture_c,TT4G35C,Teacher collaboration and professional culture. Item C.
+teacher_collaboration_and_professional_culture_d,TT4G35D,Teacher collaboration and professional culture. Item D.
+teacher_collaboration_and_professional_culture_e,TT4G35E,Teacher collaboration and professional culture. Item E.
+teacher_collaboration_and_professional_culture_f,TT4G35F,Teacher collaboration and professional culture. Item F.
+teacher_collaboration_and_professional_culture_g,TT4G35G,Teacher collaboration and professional culture. Item G.
+teacher_collaboration_and_professional_culture_h,TT4G35H,Teacher collaboration and professional culture. Item H.
+teacher_collaboration_and_professional_culture_i,TT4G35I,Teacher collaboration and professional culture. Item I.
+teacher_collaboration_and_professional_culture_j,TT4G35J,Teacher collaboration and professional culture. Item J.
+teacher_views_about_school_leadership_and_decision_making,TT4G36,Teacher views about school leadership and decision-making.
+school_leadership_support_and_working_environment_a,TT4G37A,"School leadership, support, and working environment. Item A."
+school_leadership_support_and_working_environment_b,TT4G37B,"School leadership, support, and working environment. Item B."
+school_leadership_support_and_working_environment_c,TT4G37C,"School leadership, support, and working environment. Item C."
+school_leadership_support_and_working_environment_d,TT4G37D,"School leadership, support, and working environment. Item D."
+school_leadership_support_and_working_environment_e,TT4G37E,"School leadership, support, and working environment. Item E."
+school_leadership_support_and_working_environment_f,TT4G37F,"School leadership, support, and working environment. Item F."
+school_leadership_support_and_working_environment_g,TT4G37G,"School leadership, support, and working environment. Item G."
+school_leadership_support_and_working_environment_h,TT4G37H,"School leadership, support, and working environment. Item H."
+school_leadership_support_and_working_environment_i,TT4G37I,"School leadership, support, and working environment. Item I."
+frequency_of_school_student_behaviour_or_climate_issues_a,TT4G38A,Frequency of school/student behaviour or climate issues. Item A.
+frequency_of_school_student_behaviour_or_climate_issues_b,TT4G38B,Frequency of school/student behaviour or climate issues. Item B.
+frequency_of_school_student_behaviour_or_climate_issues_c,TT4G38C,Frequency of school/student behaviour or climate issues. Item C.
+frequency_of_school_student_behaviour_or_climate_issues_d,TT4G38D,Frequency of school/student behaviour or climate issues. Item D.
+frequency_of_school_student_behaviour_or_climate_issues_e,TT4G38E,Frequency of school/student behaviour or climate issues. Item E.
+frequency_of_school_student_behaviour_or_climate_issues_f,TT4G38F,Frequency of school/student behaviour or climate issues. Item F.
+target_class_characteristics_and_teaching_context_a,TT4G47A,Target class characteristics and teaching context. Item A.
+target_class_characteristics_and_teaching_context_b,TT4G47B,Target class characteristics and teaching context. Item B.
+target_class_characteristics_and_teaching_context_c,TT4G47C,Target class characteristics and teaching context. Item C.
+target_class_characteristics_and_teaching_context_d,TT4G47D,Target class characteristics and teaching context. Item D.
+target_class_characteristics_and_teaching_context_e,TT4G47E,Target class characteristics and teaching context. Item E.
+target_class_characteristics_and_teaching_context_f,TT4G47F,Target class characteristics and teaching context. Item F.
+target_class_characteristics_and_teaching_context_g,TT4G47G,Target class characteristics and teaching context. Item G.
+target_class_characteristics_and_teaching_context_h,TT4G47H,Target class characteristics and teaching context. Item H.
+target_class_characteristics_and_teaching_context_i,TT4G47I,Target class characteristics and teaching context. Item I.
+target_class_characteristics_and_teaching_context_j,TT4G47J,Target class characteristics and teaching context. Item J.
+target_class_characteristics_and_teaching_context_k,TT4G47K,Target class characteristics and teaching context. Item K.
+subjects_taught_to_the_target_class_primary_only_detailed_su_a,TT4G48A,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item A.
+subjects_taught_to_the_target_class_primary_only_detailed_su_ba,TT4G48BA,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BA.
+subjects_taught_to_the_target_class_primary_only_detailed_su_bb,TT4G48BB,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BB.
+subjects_taught_to_the_target_class_primary_only_detailed_su_bc,TT4G48BC,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BC.
+subjects_taught_to_the_target_class_primary_only_detailed_su_bd,TT4G48BD,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BD.
+subjects_taught_to_the_target_class_primary_only_detailed_su_be,TT4G48BE,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BE.
+subjects_taught_to_the_target_class_primary_only_detailed_su_bf,TT4G48BF,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BF.
+subjects_taught_to_the_target_class_primary_only_detailed_su_bg,TT4G48BG,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BG.
+subjects_taught_to_the_target_class_primary_only_detailed_su_bh,TT4G48BH,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BH.
+subjects_taught_to_the_target_class_primary_only_detailed_su_bi,TT4G48BI,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BI.
+subjects_taught_to_the_target_class_primary_only_detailed_su_bj,TT4G48BJ,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BJ.
+subjects_taught_to_the_target_class_primary_only_detailed_su_bk,TT4G48BK,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BK.
+subjects_taught_to_the_target_class_primary_only_detailed_su_bl,TT4G48BL,Subjects taught to the target class; primary-only detailed subject follow-ups are coded TT4G48BA-TT4G48BL. Item BL.
+language_of_instruction_language_background_for_the_target_c,TT4G49,Language of instruction / language background for the target class.
+target_class_composition_and_student_characteristics_a,TT4G50A,Target class composition and student characteristics. Item A.
+target_class_composition_and_student_characteristics_b,TT4G50B,Target class composition and student characteristics. Item B.
+target_class_composition_and_student_characteristics_c,TT4G50C,Target class composition and student characteristics. Item C.
+teaching_practices_used_in_the_target_class_a,TT4G51A,Teaching practices used in the target class. Item A.
+teaching_practices_used_in_the_target_class_b,TT4G51B,Teaching practices used in the target class. Item B.
+teaching_practices_used_in_the_target_class_c,TT4G51C,Teaching practices used in the target class. Item C.
+teaching_practices_used_in_the_target_class_d,TT4G51D,Teaching practices used in the target class. Item D.
+teaching_practices_used_in_the_target_class_e,TT4G51E,Teaching practices used in the target class. Item E.
+teaching_practices_used_in_the_target_class_f,TT4G51F,Teaching practices used in the target class. Item F.
+teaching_practices_used_in_the_target_class_g,TT4G51G,Teaching practices used in the target class. Item G.
+teaching_practices_used_in_the_target_class_h,TT4G51H,Teaching practices used in the target class. Item H.
+teaching_practices_used_in_the_target_class_i,TT4G51I,Teaching practices used in the target class. Item I.
+teaching_practices_used_in_the_target_class_j,TT4G51J,Teaching practices used in the target class. Item J.
+teaching_practices_used_in_the_target_class_k,TT4G51K,Teaching practices used in the target class. Item K.
+teaching_practices_used_in_the_target_class_l,TT4G51L,Teaching practices used in the target class. Item L.
+teaching_practices_used_in_the_target_class_m,TT4G51M,Teaching practices used in the target class. Item M.
+teaching_practices_used_in_the_target_class_n,TT4G51N,Teaching practices used in the target class. Item N.
+teaching_practices_used_in_the_target_class_o,TT4G51O,Teaching practices used in the target class. Item O.
+assessment_practices_used_in_the_target_class_a,TT4G52A,Assessment practices used in the target class. Item A.
+assessment_practices_used_in_the_target_class_b,TT4G52B,Assessment practices used in the target class. Item B.
+assessment_practices_used_in_the_target_class_c,TT4G52C,Assessment practices used in the target class. Item C.
+assessment_practices_used_in_the_target_class_d,TT4G52D,Assessment practices used in the target class. Item D.
+assessment_practices_used_in_the_target_class_e,TT4G52E,Assessment practices used in the target class. Item E.
+assessment_practices_used_in_the_target_class_f,TT4G52F,Assessment practices used in the target class. Item F.
+assessment_practices_used_in_the_target_class_g,TT4G52G,Assessment practices used in the target class. Item G.
+assessment_practices_used_in_the_target_class_h,TT4G52H,Assessment practices used in the target class. Item H.
+assessment_practices_used_in_the_target_class_i,TT4G52I,Assessment practices used in the target class. Item I.
+assessment_practices_used_in_the_target_class_j,TT4G52J,Assessment practices used in the target class. Item J.
+assessment_practices_used_in_the_target_class_k,TT4G52K,Assessment practices used in the target class. Item K.
+classroom_management_and_student_behaviour_in_the_target_cla_a,TT4G53A,Classroom management and student behaviour in the target class. Item A.
+classroom_management_and_student_behaviour_in_the_target_cla_b,TT4G53B,Classroom management and student behaviour in the target class. Item B.
+classroom_management_and_student_behaviour_in_the_target_cla_c,TT4G53C,Classroom management and student behaviour in the target class. Item C.
+classroom_management_and_student_behaviour_in_the_target_cla_d,TT4G53D,Classroom management and student behaviour in the target class. Item D.
+classroom_management_and_student_behaviour_in_the_target_cla_e,TT4G53E,Classroom management and student behaviour in the target class. Item E.
+classroom_management_and_student_behaviour_in_the_target_cla_f,TT4G53F,Classroom management and student behaviour in the target class. Item F.
+use_of_teaching_resources_or_instructional_materials_a,TT4G54A,Use of teaching resources or instructional materials. Item A.
+use_of_teaching_resources_or_instructional_materials_b,TT4G54B,Use of teaching resources or instructional materials. Item B.
+use_of_teaching_resources_or_instructional_materials_c,TT4G54C,Use of teaching resources or instructional materials. Item C.
+use_of_teaching_resources_or_instructional_materials_d,TT4G54D,Use of teaching resources or instructional materials. Item D.
+teacher_self_efficacy_and_instructional_confidence_a,TT4G55A,Teacher self-efficacy and instructional confidence. Item A.
+teacher_self_efficacy_and_instructional_confidence_b,TT4G55B,Teacher self-efficacy and instructional confidence. Item B.
+teacher_self_efficacy_and_instructional_confidence_c,TT4G55C,Teacher self-efficacy and instructional confidence. Item C.
+teacher_self_efficacy_and_instructional_confidence_d,TT4G55D,Teacher self-efficacy and instructional confidence. Item D.
+teacher_self_efficacy_and_instructional_confidence_e,TT4G55E,Teacher self-efficacy and instructional confidence. Item E.
+student_engagement_and_classroom_practice_a,TT4G56A,Student engagement and classroom practice. Item A.
+student_engagement_and_classroom_practice_b,TT4G56B,Student engagement and classroom practice. Item B.
+student_engagement_and_classroom_practice_c,TT4G56C,Student engagement and classroom practice. Item C.
+student_engagement_and_classroom_practice_d,TT4G56D,Student engagement and classroom practice. Item D.
+teaching_adaptation_and_support_for_diverse_learners_a,TT4G57A,Teaching adaptation and support for diverse learners. Item A.
+teaching_adaptation_and_support_for_diverse_learners_b,TT4G57B,Teaching adaptation and support for diverse learners. Item B.
+teaching_adaptation_and_support_for_diverse_learners_c,TT4G57C,Teaching adaptation and support for diverse learners. Item C.
+teaching_adaptation_and_support_for_diverse_learners_d,TT4G57D,Teaching adaptation and support for diverse learners. Item D.
+teaching_adaptation_and_support_for_diverse_learners_e,TT4G57E,Teaching adaptation and support for diverse learners. Item E.
+digital_resources_tools_and_technology_use_in_teaching_a,TT4G58A,Digital resources/tools and technology use in teaching. Item A.
+digital_resources_tools_and_technology_use_in_teaching_b,TT4G58B,Digital resources/tools and technology use in teaching. Item B.
+digital_resources_tools_and_technology_use_in_teaching_c,TT4G58C,Digital resources/tools and technology use in teaching. Item C.
+digital_resources_tools_and_technology_use_in_teaching_d,TT4G58D,Digital resources/tools and technology use in teaching. Item D.
+digital_resources_tools_and_technology_use_in_teaching_e,TT4G58E,Digital resources/tools and technology use in teaching. Item E.
+digital_resources_tools_and_technology_use_in_teaching_f,TT4G58F,Digital resources/tools and technology use in teaching. Item F.
+digital_resources_tools_and_technology_use_in_teaching_g,TT4G58G,Digital resources/tools and technology use in teaching. Item G.
+support_barriers_or_confidence_related_to_digital_technology_a,TT4G59A,"Support, barriers, or confidence related to digital technology use. Item A."
+support_barriers_or_confidence_related_to_digital_technology_b,TT4G59B,"Support, barriers, or confidence related to digital technology use. Item B."
+support_barriers_or_confidence_related_to_digital_technology_c,TT4G59C,"Support, barriers, or confidence related to digital technology use. Item C."
+support_barriers_or_confidence_related_to_digital_technology_d,TT4G59D,"Support, barriers, or confidence related to digital technology use. Item D."
+support_barriers_or_confidence_related_to_digital_technology_e,TT4G59E,"Support, barriers, or confidence related to digital technology use. Item E."
+support_barriers_or_confidence_related_to_digital_technology_f,TT4G59F,"Support, barriers, or confidence related to digital technology use. Item F."
+teacher_practices_related_to_digital_resources_tools_a,TT4G60A,Teacher practices related to digital resources/tools. Item A.
+teacher_practices_related_to_digital_resources_tools_b,TT4G60B,Teacher practices related to digital resources/tools. Item B.
+teacher_practices_related_to_digital_resources_tools_c,TT4G60C,Teacher practices related to digital resources/tools. Item C.
+teacher_practices_related_to_digital_resources_tools_d,TT4G60D,Teacher practices related to digital resources/tools. Item D.
+teacher_practices_related_to_digital_resources_tools_e,TT4G60E,Teacher practices related to digital resources/tools. Item E.
+school_support_for_digital_resources_tools_a,TT4G61A,School support for digital resources/tools. Item A.
+school_support_for_digital_resources_tools_b,TT4G61B,School support for digital resources/tools. Item B.
+school_support_for_digital_resources_tools_c,TT4G61C,School support for digital resources/tools. Item C.
+school_support_for_digital_resources_tools_d,TT4G61D,School support for digital resources/tools. Item D.
+school_support_for_digital_resources_tools_e,TT4G61E,School support for digital resources/tools. Item E.
+school_support_for_digital_resources_tools_f,TT4G61F,School support for digital resources/tools. Item F.
+teacher_needs_or_experiences_related_to_digital_technology_a,TT4G62A,Teacher needs or experiences related to digital technology. Item A.
+teacher_needs_or_experiences_related_to_digital_technology_b,TT4G62B,Teacher needs or experiences related to digital technology. Item B.
+teacher_needs_or_experiences_related_to_digital_technology_c,TT4G62C,Teacher needs or experiences related to digital technology. Item C.
+teacher_needs_or_experiences_related_to_digital_technology_d,TT4G62D,Teacher needs or experiences related to digital technology. Item D.
+teacher_perceptions_of_technology_use_a,TT4G63A,Teacher perceptions of technology use. Item A.
+teacher_perceptions_of_technology_use_b,TT4G63B,Teacher perceptions of technology use. Item B.
+teacher_perceptions_of_technology_use_c,TT4G63C,Teacher perceptions of technology use. Item C.
+teacher_perceptions_of_technology_use_d,TT4G63D,Teacher perceptions of technology use. Item D.
+artificial_intelligence_use_preparation_or_perceptions_for_t_a,TT4G64A,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item A."
+artificial_intelligence_use_preparation_or_perceptions_for_t_b,TT4G64B,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item B."
+artificial_intelligence_use_preparation_or_perceptions_for_t_c,TT4G64C,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item C."
+artificial_intelligence_use_preparation_or_perceptions_for_t_d,TT4G64D,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item D."
+artificial_intelligence_use_preparation_or_perceptions_for_t_e,TT4G64E,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item E."
+artificial_intelligence_use_preparation_or_perceptions_for_t_f,TT4G64F,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item F."
+artificial_intelligence_use_preparation_or_perceptions_for_t_g,TT4G64G,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item G."
+artificial_intelligence_use_preparation_or_perceptions_for_t_h,TT4G64H,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item H."
+artificial_intelligence_use_preparation_or_perceptions_for_t_i,TT4G64I,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item I."
+artificial_intelligence_use_preparation_or_perceptions_for_t_j,TT4G64J,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item J."
+artificial_intelligence_use_preparation_or_perceptions_for_t_k,TT4G64K,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item K."
+artificial_intelligence_use_preparation_or_perceptions_for_t_l,TT4G64L,"Artificial intelligence use, preparation, or perceptions for teaching and learning. Item L."
+artificial_intelligence_support_barriers_or_practices_a,TT4G65A,"Artificial intelligence support, barriers, or practices. Item A."
+artificial_intelligence_support_barriers_or_practices_b,TT4G65B,"Artificial intelligence support, barriers, or practices. Item B."
+artificial_intelligence_support_barriers_or_practices_c,TT4G65C,"Artificial intelligence support, barriers, or practices. Item C."
+artificial_intelligence_support_barriers_or_practices_d,TT4G65D,"Artificial intelligence support, barriers, or practices. Item D."
+teacher_student_use_of_digital_or_ai_related_tools_a,TT4G66A,Teacher/student use of digital or AI-related tools. Item A.
+teacher_student_use_of_digital_or_ai_related_tools_b,TT4G66B,Teacher/student use of digital or AI-related tools. Item B.
+teacher_student_use_of_digital_or_ai_related_tools_c,TT4G66C,Teacher/student use of digital or AI-related tools. Item C.
+teacher_student_use_of_digital_or_ai_related_tools_d,TT4G66D,Teacher/student use of digital or AI-related tools. Item D.
+teacher_student_use_of_digital_or_ai_related_tools_e,TT4G66E,Teacher/student use of digital or AI-related tools. Item E.
+teacher_student_use_of_digital_or_ai_related_tools_f,TT4G66F,Teacher/student use of digital or AI-related tools. Item F.
+teacher_student_use_of_digital_or_ai_related_tools_g,TT4G66G,Teacher/student use of digital or AI-related tools. Item G.
+teacher_student_use_of_digital_or_ai_related_tools_h,TT4G66H,Teacher/student use of digital or AI-related tools. Item H.
+teacher_student_use_of_digital_or_ai_related_tools_i,TT4G66I,Teacher/student use of digital or AI-related tools. Item I.
+teacher_student_use_of_digital_or_ai_related_tools_j,TT4G66J,Teacher/student use of digital or AI-related tools. Item J.
+additional_technology_or_ai_related_teaching_items_a,TT4G67A,Additional technology or AI-related teaching items. Item A.
+additional_technology_or_ai_related_teaching_items_b,TT4G67B,Additional technology or AI-related teaching items. Item B.
+additional_technology_or_ai_related_teaching_items_c,TT4G67C,Additional technology or AI-related teaching items. Item C.
+additional_technology_or_ai_related_teaching_items_d,TT4G67D,Additional technology or AI-related teaching items. Item D.
+frequency_grid_for_technology_artificial_intelligence_relate_a1,TT4G68A1,Frequency grid for technology/artificial-intelligence-related use cases. Item A1.
+frequency_grid_for_technology_artificial_intelligence_relate_a2,TT4G68A2,Frequency grid for technology/artificial-intelligence-related use cases. Item A2.
+frequency_grid_for_technology_artificial_intelligence_relate_a3,TT4G68A3,Frequency grid for technology/artificial-intelligence-related use cases. Item A3.
+frequency_grid_for_technology_artificial_intelligence_relate_a4,TT4G68A4,Frequency grid for technology/artificial-intelligence-related use cases. Item A4.
+frequency_grid_for_technology_artificial_intelligence_relate_b1,TT4G68B1,Frequency grid for technology/artificial-intelligence-related use cases. Item B1.
+frequency_grid_for_technology_artificial_intelligence_relate_b2,TT4G68B2,Frequency grid for technology/artificial-intelligence-related use cases. Item B2.
+frequency_grid_for_technology_artificial_intelligence_relate_b3,TT4G68B3,Frequency grid for technology/artificial-intelligence-related use cases. Item B3.
+frequency_grid_for_technology_artificial_intelligence_relate_b4,TT4G68B4,Frequency grid for technology/artificial-intelligence-related use cases. Item B4.
+frequency_grid_for_technology_artificial_intelligence_relate_c1,TT4G68C1,Frequency grid for technology/artificial-intelligence-related use cases. Item C1.
+frequency_grid_for_technology_artificial_intelligence_relate_c2,TT4G68C2,Frequency grid for technology/artificial-intelligence-related use cases. Item C2.
+frequency_grid_for_technology_artificial_intelligence_relate_c3,TT4G68C3,Frequency grid for technology/artificial-intelligence-related use cases. Item C3.
+frequency_grid_for_technology_artificial_intelligence_relate_c4,TT4G68C4,Frequency grid for technology/artificial-intelligence-related use cases. Item C4.
+frequency_grid_for_technology_artificial_intelligence_relate_d1,TT4G68D1,Frequency grid for technology/artificial-intelligence-related use cases. Item D1.
+frequency_grid_for_technology_artificial_intelligence_relate_d2,TT4G68D2,Frequency grid for technology/artificial-intelligence-related use cases. Item D2.
+frequency_grid_for_technology_artificial_intelligence_relate_d3,TT4G68D3,Frequency grid for technology/artificial-intelligence-related use cases. Item D3.
+frequency_grid_for_technology_artificial_intelligence_relate_d4,TT4G68D4,Frequency grid for technology/artificial-intelligence-related use cases. Item D4.
+frequency_grid_for_technology_artificial_intelligence_relate_e1,TT4G68E1,Frequency grid for technology/artificial-intelligence-related use cases. Item E1.
+frequency_grid_for_technology_artificial_intelligence_relate_e2,TT4G68E2,Frequency grid for technology/artificial-intelligence-related use cases. Item E2.
+frequency_grid_for_technology_artificial_intelligence_relate_e3,TT4G68E3,Frequency grid for technology/artificial-intelligence-related use cases. Item E3.
+frequency_grid_for_technology_artificial_intelligence_relate_e4,TT4G68E4,Frequency grid for technology/artificial-intelligence-related use cases. Item E4.
+frequency_grid_for_technology_artificial_intelligence_relate_f1,TT4G68F1,Frequency grid for technology/artificial-intelligence-related use cases. Item F1.
+frequency_grid_for_technology_artificial_intelligence_relate_f2,TT4G68F2,Frequency grid for technology/artificial-intelligence-related use cases. Item F2.
+frequency_grid_for_technology_artificial_intelligence_relate_f3,TT4G68F3,Frequency grid for technology/artificial-intelligence-related use cases. Item F3.
+frequency_grid_for_technology_artificial_intelligence_relate_f4,TT4G68F4,Frequency grid for technology/artificial-intelligence-related use cases. Item F4.
+school_or_classroom_practices_related_to_digital_technology_a,TT4G69A,School or classroom practices related to digital technology/artificial intelligence. Item A.
+school_or_classroom_practices_related_to_digital_technology_b,TT4G69B,School or classroom practices related to digital technology/artificial intelligence. Item B.
+school_or_classroom_practices_related_to_digital_technology_c,TT4G69C,School or classroom practices related to digital technology/artificial intelligence. Item C.
+school_or_classroom_practices_related_to_digital_technology_d,TT4G69D,School or classroom practices related to digital technology/artificial intelligence. Item D.
+school_or_classroom_practices_related_to_digital_technology_e,TT4G69E,School or classroom practices related to digital technology/artificial intelligence. Item E.
+school_or_classroom_practices_related_to_digital_technology_f,TT4G69F,School or classroom practices related to digital technology/artificial intelligence. Item F.
+school_or_classroom_practices_related_to_digital_technology_g,TT4G69G,School or classroom practices related to digital technology/artificial intelligence. Item G.
+school_or_classroom_practices_related_to_digital_technology_h,TT4G69H,School or classroom practices related to digital technology/artificial intelligence. Item H.
+teacher_views_on_digital_ai_opportunities_or_risks_a,TT4G70A,Teacher views on digital/AI opportunities or risks. Item A.
+teacher_views_on_digital_ai_opportunities_or_risks_b,TT4G70B,Teacher views on digital/AI opportunities or risks. Item B.
+teacher_views_on_digital_ai_opportunities_or_risks_c,TT4G70C,Teacher views on digital/AI opportunities or risks. Item C.
+teacher_views_on_digital_ai_opportunities_or_risks_d,TT4G70D,Teacher views on digital/AI opportunities or risks. Item D.
+teacher_views_on_digital_ai_opportunities_or_risks_e,TT4G70E,Teacher views on digital/AI opportunities or risks. Item E.
+teacher_preparation_support_related_to_digital_ai_use_a,TT4G71A,Teacher preparation/support related to digital/AI use. Item A.
+teacher_preparation_support_related_to_digital_ai_use_b,TT4G71B,Teacher preparation/support related to digital/AI use. Item B.
+teacher_preparation_support_related_to_digital_ai_use_c,TT4G71C,Teacher preparation/support related to digital/AI use. Item C.
+teacher_preparation_support_related_to_digital_ai_use_d,TT4G71D,Teacher preparation/support related to digital/AI use. Item D.
+teacher_preparation_support_related_to_digital_ai_use_e,TT4G71E,Teacher preparation/support related to digital/AI use. Item E.
+teacher_perceptions_of_digital_ai_use_in_teaching_and_learni_a,TT4G72A,Teacher perceptions of digital/AI use in teaching and learning. Item A.
+teacher_perceptions_of_digital_ai_use_in_teaching_and_learni_b,TT4G72B,Teacher perceptions of digital/AI use in teaching and learning. Item B.
+teacher_perceptions_of_digital_ai_use_in_teaching_and_learni_c,TT4G72C,Teacher perceptions of digital/AI use in teaching and learning. Item C.
+teacher_perceptions_of_digital_ai_use_in_teaching_and_learni_d,TT4G72D,Teacher perceptions of digital/AI use in teaching and learning. Item D.
+teacher_perceptions_of_digital_ai_use_in_teaching_and_learni_e,TT4G72E,Teacher perceptions of digital/AI use in teaching and learning. Item E.
+teacher_perceptions_of_digital_ai_use_in_teaching_and_learni_f,TT4G72F,Teacher perceptions of digital/AI use in teaching and learning. Item F.
+motivations_for_becoming_a_teacher_a,TT4G73A,Motivations for becoming a teacher. Item A.
+motivations_for_becoming_a_teacher_b,TT4G73B,Motivations for becoming a teacher. Item B.
+motivations_for_becoming_a_teacher_c,TT4G73C,Motivations for becoming a teacher. Item C.
+motivations_for_becoming_a_teacher_d,TT4G73D,Motivations for becoming a teacher. Item D.
+motivations_for_becoming_a_teacher_e,TT4G73E,Motivations for becoming a teacher. Item E.
+motivations_for_becoming_a_teacher_f,TT4G73F,Motivations for becoming a teacher. Item F.
+motivations_for_becoming_a_teacher_g,TT4G73G,Motivations for becoming a teacher. Item G.
+motivations_for_becoming_a_teacher_h,TT4G73H,Motivations for becoming a teacher. Item H.
+motivations_for_becoming_a_teacher_i,TT4G73I,Motivations for becoming a teacher. Item I.
+number_of_more_years_the_teacher_wants_to_continue_working_a,TT4G74,Number of more years the teacher wants to continue working as a teacher.
+likelihood_that_listed_factors_will_cause_the_teacher_to_lea_a,TT4G75A,Likelihood that listed factors will cause the teacher to leave teaching in the next five years. Item A.
+likelihood_that_listed_factors_will_cause_the_teacher_to_lea_b,TT4G75B,Likelihood that listed factors will cause the teacher to leave teaching in the next five years. Item B.
+likelihood_that_listed_factors_will_cause_the_teacher_to_lea_c,TT4G75C,Likelihood that listed factors will cause the teacher to leave teaching in the next five years. Item C.
+likelihood_that_listed_factors_will_cause_the_teacher_to_lea_d,TT4G75D,Likelihood that listed factors will cause the teacher to leave teaching in the next five years. Item D.
+likelihood_that_listed_factors_will_cause_the_teacher_to_lea_e,TT4G75E,Likelihood that listed factors will cause the teacher to leave teaching in the next five years. Item E.
+stress_work_life_balance_and_health_impacts_a,TT4G76A,"Stress, work-life balance, and health impacts. Item A."
+stress_work_life_balance_and_health_impacts_b,TT4G76B,"Stress, work-life balance, and health impacts. Item B."
+stress_work_life_balance_and_health_impacts_c,TT4G76C,"Stress, work-life balance, and health impacts. Item C."
+stress_work_life_balance_and_health_impacts_d,TT4G76D,"Stress, work-life balance, and health impacts. Item D."
+sources_of_stress_in_the_teacher_s_work_a,TT4G77A,Sources of stress in the teacher's work. Item A.
+sources_of_stress_in_the_teacher_s_work_b,TT4G77B,Sources of stress in the teacher's work. Item B.
+sources_of_stress_in_the_teacher_s_work_c,TT4G77C,Sources of stress in the teacher's work. Item C.
+sources_of_stress_in_the_teacher_s_work_d,TT4G77D,Sources of stress in the teacher's work. Item D.
+sources_of_stress_in_the_teacher_s_work_e,TT4G77E,Sources of stress in the teacher's work. Item E.
+sources_of_stress_in_the_teacher_s_work_f,TT4G77F,Sources of stress in the teacher's work. Item F.
+sources_of_stress_in_the_teacher_s_work_g,TT4G77G,Sources of stress in the teacher's work. Item G.
+sources_of_stress_in_the_teacher_s_work_h,TT4G77H,Sources of stress in the teacher's work. Item H.
+sources_of_stress_in_the_teacher_s_work_i,TT4G77I,Sources of stress in the teacher's work. Item I.
+sources_of_stress_in_the_teacher_s_work_j,TT4G77J,Sources of stress in the teacher's work. Item J.
+sources_of_stress_in_the_teacher_s_work_k,TT4G77K,Sources of stress in the teacher's work. Item K.
+sources_of_stress_in_the_teacher_s_work_l,TT4G77L,Sources of stress in the teacher's work. Item L.
+sources_of_stress_in_the_teacher_s_work_m,TT4G77M,Sources of stress in the teacher's work. Item M.
+sources_of_stress_in_the_teacher_s_work_n,TT4G77N,Sources of stress in the teacher's work. Item N.
+sources_of_stress_in_the_teacher_s_work_o,TT4G77O,Sources of stress in the teacher's work. Item O.
+sources_of_stress_in_the_teacher_s_work_p,TT4G77P,Sources of stress in the teacher's work. Item P.
+job_satisfaction_school_satisfaction_and_perceived_societal_a,TT4G78A,"Job satisfaction, school satisfaction, and perceived societal value of teaching. Item A."
+job_satisfaction_school_satisfaction_and_perceived_societal_b,TT4G78B,"Job satisfaction, school satisfaction, and perceived societal value of teaching. Item B."
+job_satisfaction_school_satisfaction_and_perceived_societal_c,TT4G78C,"Job satisfaction, school satisfaction, and perceived societal value of teaching. Item C."
+job_satisfaction_school_satisfaction_and_perceived_societal_d,TT4G78D,"Job satisfaction, school satisfaction, and perceived societal value of teaching. Item D."
+job_satisfaction_school_satisfaction_and_perceived_societal_e,TT4G78E,"Job satisfaction, school satisfaction, and perceived societal value of teaching. Item E."
+job_satisfaction_school_satisfaction_and_perceived_societal_f,TT4G78F,"Job satisfaction, school satisfaction, and perceived societal value of teaching. Item F."
+job_satisfaction_school_satisfaction_and_perceived_societal_g,TT4G78G,"Job satisfaction, school satisfaction, and perceived societal value of teaching. Item G."
+job_satisfaction_school_satisfaction_and_perceived_societal_h,TT4G78H,"Job satisfaction, school satisfaction, and perceived societal value of teaching. Item H."
+job_satisfaction_school_satisfaction_and_perceived_societal_i,TT4G78I,"Job satisfaction, school satisfaction, and perceived societal value of teaching. Item I."
+job_satisfaction_school_satisfaction_and_perceived_societal_j,TT4G78J,"Job satisfaction, school satisfaction, and perceived societal value of teaching. Item J."
+additional_occupational_perception_and_work_satisfaction_sta_a,TT4G79A,Additional occupational perception and work satisfaction statements. Item A.
+additional_occupational_perception_and_work_satisfaction_sta_b,TT4G79B,Additional occupational perception and work satisfaction statements. Item B.
+additional_occupational_perception_and_work_satisfaction_sta_c,TT4G79C,Additional occupational perception and work satisfaction statements. Item C.
+additional_occupational_perception_and_work_satisfaction_sta_d,TT4G79D,Additional occupational perception and work satisfaction statements. Item D.
+additional_occupational_perception_and_work_satisfaction_sta_e,TT4G79E,Additional occupational perception and work satisfaction statements. Item E.
+additional_occupational_perception_and_work_satisfaction_sta_f,TT4G79F,Additional occupational perception and work satisfaction statements. Item F.
+additional_occupational_perception_and_work_satisfaction_sta_g,TT4G79G,Additional occupational perception and work satisfaction statements. Item G.
+teacher_well_being_or_working_condition_statements_a,TT4G80A,Teacher well-being or working-condition statements. Item A.
+teacher_well_being_or_working_condition_statements_b,TT4G80B,Teacher well-being or working-condition statements. Item B.
+teacher_well_being_or_working_condition_statements_c,TT4G80C,Teacher well-being or working-condition statements. Item C.
+teacher_well_being_or_working_condition_statements_d,TT4G80D,Teacher well-being or working-condition statements. Item D.
+additional_job_related_beliefs_or_school_profession_percepti_a,TT4G82A,Additional job-related beliefs or school/profession perceptions. Item A.
+additional_job_related_beliefs_or_school_profession_percepti_b,TT4G82B,Additional job-related beliefs or school/profession perceptions. Item B.
+additional_job_related_beliefs_or_school_profession_percepti_c,TT4G82C,Additional job-related beliefs or school/profession perceptions. Item C.
+additional_job_related_beliefs_or_school_profession_percepti_d,TT4G82D,Additional job-related beliefs or school/profession perceptions. Item D.
+additional_job_related_beliefs_or_school_profession_percepti_e,TT4G82E,Additional job-related beliefs or school/profession perceptions. Item E.
+additional_teacher_occupational_perception_items_a,TT4G83A,Additional teacher occupational perception items. Item A.
+additional_teacher_occupational_perception_items_b,TT4G83B,Additional teacher occupational perception items. Item B.
+additional_teacher_occupational_perception_items_c,TT4G83C,Additional teacher occupational perception items. Item C.
+additional_teacher_occupational_perception_items_d,TT4G83D,Additional teacher occupational perception items. Item D.
+additional_teacher_occupational_perception_items_e,TT4G83E,Additional teacher occupational perception items. Item E.
+additional_teacher_occupational_perception_items_f,TT4G83F,Additional teacher occupational perception items. Item F.
+additional_teacher_occupational_perception_items_g,TT4G83G,Additional teacher occupational perception items. Item G.
+final_questionnaire_item_in_teacher_survey_check_questionnai,TT4G84,Final questionnaire item in teacher survey; check questionnaire/codebook for exact wording.
+teacher_age_group_derived_variable,T4TAGEGR,Teacher age group derived variable.
+teacher_highest_education_educational_attainment_derived_var,T4THEDAT,Teacher highest education / educational attainment derived variable.
+teacher_qualification_type_derived_variable,T4TYQUAL,Teacher qualification type derived variable.
+teacher_employment_status_work_hours_derived_variable,T4TEMPWH,Teacher employment status/work hours derived variable.
+target_class_information_derived_variable,T4CLSINF,Target class information derived variable.
+formal_appraisal_support_practices_derived_variable,T4FASPR,Formal appraisal/support practices derived variable.
+teaching_experience_derived_variable,T4TYEXPE,Teaching experience derived variable.
+teacher_tenure_at_school_derived_variable,T4TNSCH,Teacher tenure at school derived variable.
+teaching_experience_at_school_derived_variable,T4TYEXPTS,Teaching experience at school derived variable.
+total_teaching_experience_derived_variable,T4TYEXPTT,Total teaching experience derived variable.
+other_work_experience_derived_variable,T4TYEXPO,Other work experience derived variable.
+target_class_size_derived_variable,T4TCSIZE,Target class size derived variable.
+language_background_instruction_derived_variable,T4TLANGN,Language background/instruction derived variable.
+professional_learning_subject_matter_participation_derived_v,T4PDSUBMP,Professional learning subject matter participation derived variable.
+professional_learning_diversity_inclusion_derived_variable,T4PDIV,Professional learning diversity/inclusion derived variable.
+professional_learning_barriers_derived_variable,T4PDBR,Professional learning barriers derived variable.
+exchange_information_sharing_among_teachers_scale_or_index,T4EXINF,Exchange/information sharing among teachers scale or index.
+collective_professional_learning_exchange_scale_or_index,T4COLES,Collective professional learning/exchange scale or index.
+teacher_self_efficacy_in_classroom_management_scale_or_index,T4SECLS,Teacher self-efficacy in classroom management scale or index.
+teacher_self_efficacy_in_instruction_scale_or_index,T4SEINS,Teacher self-efficacy in instruction scale or index.
+teacher_self_efficacy_in_student_engagement_scale_or_index,T4SEENG,Teacher self-efficacy in student engagement scale or index.
+teacher_self_efficacy_scale_or_index,T4SELF,Teacher self-efficacy scale or index.
+self_efficacy_in_multicultural_multilingual_settings_scale_o,T4SEMUL,Self-efficacy in multicultural/multilingual settings scale or index.
+growth_mindset_or_student_development_scale_index,T4GROMST,Growth mindset or student development scale/index.
+self_efficacy_for_special_education_needs_scale_index,T4SESEN,Self-efficacy for special education needs scale/index.
+social_and_emotional_learning_collaboration_scale_index,T4COMSEL,Social and emotional learning / collaboration scale/index.
+self_efficacy_with_digital_resources_tools_scale_index,T4SEDRT,Self-efficacy with digital resources/tools scale/index.
+beliefs_about_digital_resources_tools_scale_index,T4BLFDRT,Beliefs about digital resources/tools scale/index.
+advantages_of_digital_resources_tools_scale_index,T4ADVDRT,Advantages of digital resources/tools scale/index.
+classroom_innovation_or_classroom_instruction_scale_index,T4CLAIN,Classroom innovation or classroom instruction scale/index.
+cognitive_activation_scale_index,T4COGAC,Cognitive activation scale/index.
+classroom_management_scale_index,T4CLASM,Classroom management scale/index.
+professional_learning_participation_scale_index,T4PDGENP,Professional learning participation scale/index.
+digital_resources_tools_working_conditions_support_scale_ind,T4DRTWCI,Digital resources/tools working conditions/support scale/index.
+digital_resources_tools_or_ai_integration_scale_index,T4DRTIIA,Digital resources/tools or AI integration scale/index.
+empathy_support_or_student_support_scale_index,T4EMPS,Empathy/support or student support scale/index.
+classroom_disciplinary_climate_scale_index,T4CLSDIS,Classroom disciplinary climate scale/index.
+adaptive_learning_adaptive_teaching_scale_index,T4ADLE,Adaptive learning / adaptive teaching scale/index.
+problem_based_learning_scale_index,T4PBLE,Problem-based learning scale/index.
+teacher_autonomy_scale_index,T4AUTCH,Teacher autonomy scale/index.
+teacher_fulfillment_scale_index,T4FULFIL,Teacher fulfillment scale/index.
+opportunities_to_participate_shared_decision_making_scale_in,T4OPPART,Opportunities to participate / shared decision-making scale/index.
+student_social_and_emotional_development_scale_index,T4SESDEV,Student social and emotional development scale/index.
+teacher_leadership_scale_index,T4TLEAD,Teacher leadership scale/index.
+student_teacher_relations_scale_index,T4STUD,Student-teacher relations scale/index.
+responsive_effective_leadership_scale_index,T4RELEAD,Responsive/effective leadership scale/index.
+instructional_leadership_scale_index,T4INSTLE,Instructional leadership scale/index.
+bullying_or_school_climate_scale_index,T4CLIBUL,Bullying or school climate scale/index.
+student_harassment_safety_scale_index,T4STUHAR,Student harassment/safety scale/index.
+climate_change_attitudes_teaching_scale_index,T4CHFAT,Climate-change attitudes/teaching scale/index.
+motivation_to_teach_personal_utility_scale_index,T4MOPU,Motivation to teach: personal utility scale/index.
+motivation_to_teach_social_utility_scale_index,T4MOSU,Motivation to teach: social utility scale/index.
+teacher_well_being_scale_index,T4WELS,Teacher well-being scale/index.
+teacher_workload_stress_scale_index,T4WLOADT,Teacher workload/stress scale/index.
+student_behaviour_scale_index,T4STBEH,Student behaviour scale/index.
+job_satisfaction_with_school_work_environment_scale_index,T4JSENVT,Job satisfaction with school/work environment scale/index.
+job_satisfaction_with_profession_scale_index,T4JSPROT,Job satisfaction with profession scale/index.
+overall_job_satisfaction_scale_index,T4JOBSAT,Overall job satisfaction scale/index.
+perceived_value_of_teaching_profession_scale_index,T4VALP,Perceived value of teaching profession scale/index.
+joy_of_teaching_scale_index,T4JOYTCH,Joy of teaching scale/index.
+target_population_isced_level_1_isced_1_primary_2_isced_2_lo,IDPOP,Target population / ISCED level: 1 = ISCED 1 primary; 2 = ISCED 2 lower secondary; 3 = ISCED 3 upper secondary.
+adjustment_or_response_rate_design_variable_supplied_by_tali,ADJRT24,Adjustment or response-rate/design variable supplied by TALIS.
+school_weight_for_teacher_file_analyses,SCHWGTT,School weight for teacher-file analyses.
+final_teacher_sampling_weight,TCHWGT,Final teacher sampling weight. Use for weighted descriptive statistics.
+teacher_replicate_weight,TRWGT1,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_1,TRWGT2,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_2,TRWGT3,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_3,TRWGT4,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_4,TRWGT5,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_5,TRWGT6,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_6,TRWGT7,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_7,TRWGT8,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_8,TRWGT9,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_9,TRWGT10,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_10,TRWGT11,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_11,TRWGT12,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_12,TRWGT13,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_13,TRWGT14,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_14,TRWGT15,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_15,TRWGT16,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_16,TRWGT17,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_17,TRWGT18,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_18,TRWGT19,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_19,TRWGT20,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_20,TRWGT21,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_21,TRWGT22,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_22,TRWGT23,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_23,TRWGT24,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_24,TRWGT25,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_25,TRWGT26,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_26,TRWGT27,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_27,TRWGT28,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_28,TRWGT29,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_29,TRWGT30,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_30,TRWGT31,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_31,TRWGT32,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_32,TRWGT33,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_33,TRWGT34,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_34,TRWGT35,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_35,TRWGT36,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_36,TRWGT37,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_37,TRWGT38,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_38,TRWGT39,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_39,TRWGT40,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_40,TRWGT41,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_41,TRWGT42,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_42,TRWGT43,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_43,TRWGT44,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_44,TRWGT45,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_45,TRWGT46,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_46,TRWGT47,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_47,TRWGT48,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_48,TRWGT49,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_49,TRWGT50,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_50,TRWGT51,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_51,TRWGT52,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_52,TRWGT53,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_53,TRWGT54,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_54,TRWGT55,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_55,TRWGT56,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_56,TRWGT57,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_57,TRWGT58,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_58,TRWGT59,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_59,TRWGT60,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_60,TRWGT61,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_61,TRWGT62,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_62,TRWGT63,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_63,TRWGT64,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_64,TRWGT65,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_65,TRWGT66,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_66,TRWGT67,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_67,TRWGT68,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_68,TRWGT69,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_69,TRWGT70,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_70,TRWGT71,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_71,TRWGT72,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_72,TRWGT73,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_73,TRWGT74,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_74,TRWGT75,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_75,TRWGT76,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_76,TRWGT77,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_77,TRWGT78,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_78,TRWGT79,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_79,TRWGT80,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_80,TRWGT81,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_81,TRWGT82,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_82,TRWGT83,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_83,TRWGT84,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_84,TRWGT85,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_85,TRWGT86,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_86,TRWGT87,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_87,TRWGT88,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_88,TRWGT89,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_89,TRWGT90,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_90,TRWGT91,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_91,TRWGT92,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_92,TRWGT93,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_93,TRWGT94,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_94,TRWGT95,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_95,TRWGT96,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_96,TRWGT97,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_97,TRWGT98,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_98,TRWGT99,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+teacher_replicate_weight_99,TRWGT100,Teacher replicate weight. Use with TALIS replicate-weight procedures for standard errors.
+public_use_file_version,VERSION,Public-use file version.
+iea_oecd_data_file_release_date,IEADATE,IEA/OECD data file release date.
