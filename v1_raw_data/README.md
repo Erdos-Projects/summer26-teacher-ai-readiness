@@ -15,19 +15,33 @@ This is the **canonical cleaned + labeled** version of the combined TALIS 2024 t
 
 ---
 
-## How v1 was cleaned (codebook-driven)
-Every rule comes from `5 Codebook/talis2024_teacher_codebook.csv`, applied to **all 630 columns**:
+## How v1 was built (codebook-driven, label-faithful / lossless)
+v1 replaces numeric codes with their text labels but **does not decide what is "missing"** —
+it keeps every code. All rules read from `5 Codebook/talis2024_teacher_codebook.csv`:
 
-1. **Admin-missing → NaN.** Codes whose label means *"Not administered" / "Omitted" / "Invalid"* (8, 9, 9998/9999, 999998/999999, …) become `NaN`.
-2. **Meaningful non-answers are kept and labeled** — `6 = Logically not applicable` and `5 = I don't know` are *preserved as categories*, because they are informative responses, not missing data.
-3. **Categorical variables (458) → ordered `Categorical`** with their text labels (e.g. `Strongly disagree < … < Strongly agree`). Original numeric codes are recoverable via `.cat.codes`.
-4. **Continuous scales / weights / identifiers (172) stay numeric** (only their missing codes are set to `NaN`).
-5. **Original TALIS variable names are kept** (`TT4G35A`, `T4SELF`, …) as the shared key. Use `5 Codebook/` or `variable_reference.md` for human-readable meanings.
+1. **Every code → its label; nothing forced to `NaN`.** For categorical variables, *all* codes are
+   replaced by their codebook labels and kept as categories — **including** the special codes
+   `8 = Not administered`, `9 = Omitted or invalid`, `6 = Logically not applicable`, and
+   `5 = I don't know`. They are kept, not dropped, so v1 stays faithful to the survey.
+2. **Categorical variables (458) → ordered `Categorical`** with their text labels. Categories are in
+   code order, so the special/missing labels sit at the end of the order.
+3. **Continuous scales / weights / identifiers (172) are left exactly as the raw file** (numeric,
+   untouched) — including their `9998/9999`-type codes, since they have no text labels to apply.
+4. **Original TALIS variable names are kept** (`TT4G35A`, `T4SELF`, …) as the shared key. Use
+   `5 Codebook/` or `variable_reference.md` for human-readable meanings.
 
-### Known caveats (intentional, resolved downstream in v2)
-- The `ordered=True` flag is correct for Likert/frequency scales but **arbitrary for nominal variables** (gender, country) — order there is meaningless.
-- `Q35 "I don't know"` sits as the top-ranked category (code 5 > 4); it is **not** a true scale point. Each `v2` recodes it to `NaN` for modeling.
-- v1 does **not** build the outcome. `AI_USE_SCORE` is built in `v2` from the preserved `Q37` items (treating `6 = Logically not applicable` as a real 0).
+### Which codes mean "missing" — handled in v2, not v1
+The codebook column `special_missing_or_skip_codes` lists, per variable, the codes that mean
+*not administered / omitted / invalid*. v1 keeps them visible as labels; **v2** is where you decide
+which become `NaN`, drop `Q35 = 5 "I don't know"`, and build `AI_USE_SCORE` from the `Q37` items
+(treating `6 = Logically not applicable` as a real 0).
+
+### Known caveats (intentional)
+- `ordered=True` is meaningful for the Likert/frequency scales, but **arbitrary for nominal variables**
+  (gender, country) and for the special-code categories (`Not administered`, etc.) that now sit at the
+  top of the order. Treat the ordering as meaningful only among the substantive response codes.
+- **Continuous columns still contain their raw `9998/9999` codes** — do not compute statistics on them
+  in v1 without recoding those to `NaN` first (that's a v2 step).
 
 ---
 
