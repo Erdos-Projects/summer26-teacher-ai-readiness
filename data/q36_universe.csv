@@ -1,0 +1,631 @@
+variable,question,pct_administered_to_Q36_people
+CNTRY,Country ID - Alpha Code,100.0
+IDCNTRY,Country ID - Numeric Code,100.0
+IDCNTPOP,Country Alpha Code and ISCED Level,100.0
+IDSCHOOL,School ID,100.0
+IDTEACH,Teacher ID,100.0
+IDTQUEST,Teacher Questionnaire Form Type,100.0
+IDLANG_TQ,Language of Questionnaire,100.0
+ITMODE_TQ,Administration mode of the Teacher Questionnaire,100.0
+TT4G01,Background/ Gender,100.0
+TT4G04,Background/ First teaching qualification,100.0
+TT4G06A,Background/ First teaching qualification/ Provided me with a strong understanding of the subject(s),100.0
+TT4G06B,Background/ First teaching  qualification/ Provided me with ideas for managing classroom behaviour,100.0
+TT4G06C,Background/ First teaching  qualification/ Included enough time for classroom observations,100.0
+TT4G06D,Background/ First teaching  qualification/ Good balance between theoretical and practical aspects of teaching,100.0
+TT4G06E,Background/ First teaching  qualification/ Provided me with enough practical opportunities,100.0
+TT4G06F,Background/ First teaching  qualification/ Overall high quality,100.0
+TT4G07A,Background/ Prepared for teaching/ Content of some or all subject(s) I teach,100.0
+TT4G07B,Background/ Prepared for teaching/ Pedagogy of some or all subject(s) I teach,100.0
+TT4G07C,Background/ Prepared for teaching/ General pedagogy,100.0
+TT4G07D,Background/ Prepared for teaching/ Classroom practice in some or all subject(s) I teach,100.0
+TT4G07E,Background/ Prepared for teaching/ Teaching in a multicultural or multilingual setting,100.0
+TT4G07F,Background/ Prepared for teaching/ Use of <digital resources and tools> for teaching,100.0
+TT4G07G,Background/ Prepared for teaching/ Supporting students' development,100.0
+TT4G07I,Background/ Prepared for teaching/ Promoting play and peer interaction,100.0
+TT4G07J,Background/ Prepared for teaching/ Supporting children's transitions from <ISCED level 0> to <ISCED level 1>,100.0
+TT4G08,Background/ Teaching as the first choice as a career,100.0
+TT4G09,Current Work/ Employment status (in terms of tenure) as a teacher at this school,100.0
+TT4G10,Current Work/ Currently working as a teacher of <ISCED 2011 level x> at another school,100.0
+TT4G14,Current Work/ Total hours spent on tasks related to job at this school during most recent complete calendar week,100.0
+TT4G15,Current Work/ Hours spent on teaching at this school during most recent complete calendar week,100.0
+TT4G16A,Current Work/ Hours spent on tasks during most recent complete calendar week/ Individual planning or preparation of lessons,100.0
+TT4G16B,Current Work/ Hours spent on tasks during most recent complete calendar week/ Team work and dialogue with colleagues within school,100.0
+TT4G16C,Current Work/ Hours spent on tasks during most recent complete calendar week/ Marking/correcting of student work,100.0
+TT4G16D,Current Work/ Hours spent on tasks during most recent complete calendar week/ Counselling students,100.0
+TT4G16E,Current Work/ Hours spent on tasks during most recent complete calendar week/ Participation in school management,100.0
+TT4G16F,Current Work/ Hours spent on tasks during most recent complete calendar week/ General administrative work,100.0
+TT4G16G,Current Work/ Hours spent on tasks during most recent complete calendar week/ Professional learning activities,100.0
+TT4G16H,Current Work/ Hours spent on tasks during most recent complete calendar week/ Communication and co-operation with parents,100.0
+TT4G16I,Current Work/ Hours spent on tasks during most recent complete calendar week/ Engaging in extracurricular activities,100.0
+TT4G16J,Current Work/ Hours spent on tasks during most recent complete calendar week/ Other work tasks,100.0
+TT4G17A,Professional Learning/ Participation in induction/ I took part in a formal induction programme,100.0
+TT4G17B,Professional Learning/ Participation in induction/ I took part in informal induction activities,100.0
+TT4G18A,Professional Learning/ Part of induction/ Courses/seminars/workshops,100.0
+TT4G18B,Professional Learning/ Part of induction/ Online courses/seminars/workshops,100.0
+TT4G18C,Professional Learning/ Part of induction/ Online activities (e.g. virtual communities),100.0
+TT4G18D,Professional Learning/ Part of induction/ Planned meetings with principal and/or experienced colleagues,100.0
+TT4G18E,Professional Learning/ Part of induction/ Supervision by principal and/or experienced colleagues,100.0
+TT4G18F,Professional Learning/ Part of induction/ Networking/collaboration with other new teachers,100.0
+TT4G18G,Professional Learning/ Part of induction/ Team teaching with experienced teachers,100.0
+TT4G18H,Professional Learning/ Part of induction/ Portfolios/diaries/journals,100.0
+TT4G18I,Professional Learning/ Part of induction/ Reduced teaching load,100.0
+TT4G18J,Professional Learning/ Part of induction/ General/administrative introduction,100.0
+TT4G18K,Professional Learning/ Part of induction/ Observing teachers at this school,100.0
+TT4G19A,Professional Learning/ Involvement in mentoring activities/ I currently have an assigned mentor to support me,100.0
+TT4G19B,Professional Learning/ Involvement in mentoring activities/ I am currently assigned mentor for one or more teacher,100.0
+TT4G20A,Professional Learning/ Participation in PL activities/ Courses/seminars/workshops,100.0
+TT4G20B,Professional Learning/ Participation in PL activities/ Education conferences,100.0
+TT4G20C,Professional Learning/ Participation in PL activities/ Formal qualification programme,100.0
+TT4G20D,Professional Learning/ Participation in PL activities/ Visits to other schools,100.0
+TT4G20E,Professional Learning/ Participation in PL activities/ Visits to business premises,100.0
+TT4G20F,Professional Learning/ Participation in PL activities/ Reflections on lesson observations,100.0
+TT4G20G,Professional Learning/ Participation in PL activities/ Coaching,100.0
+TT4G20H,Professional Learning/ Participation in PL activities/ Formal or informal teacher networks,100.0
+TT4G20I,Professional Learning/ Participation in PL activities/ Self-initiated learning activities,100.0
+TT4G20J,Professional Learning/ Participation in PL activities/ Other,100.0
+TT4G21A,Professional Learning/ Content of PL activities/ Knowledge and understanding of subject field(s),100.0
+TT4G21B,Professional Learning/ Content of PL activities/ Pedagogy of the subject matter(s) I teach,100.0
+TT4G21C,Professional Learning/ Content of PL activities/ Knowledge of the curriculum,100.0
+TT4G21D,Professional Learning/ Content of PL activities/ Student assessment practices,100.0
+TT4G21E,Professional Learning/ Content of PL activities/ Pedagogical skills for incorporating <digital resources and tools>,100.0
+TT4G21F,Professional Learning/ Content of PL activities/ Technical skills for the use of <digital resources and tools>,100.0
+TT4G21G,Professional Learning/ Content of PL activities/ Using artificial intelligence for teaching and learning,100.0
+TT4G21H,Professional Learning/ Content of PL activities/ Classroom management for student behaviour,100.0
+TT4G21I,Professional Learning/ Content of PL activities/ School management and administration,100.0
+TT4G21J,Professional Learning/ Content of PL activities/ Approaches to individualised learning,100.0
+TT4G21K,Professional Learning/ Content of PL activities/ Teaching students with special education needs,100.0
+TT4G21L,Professional Learning/ Content of PL activities/ Teaching in a multicultural or multilingual setting,100.0
+TT4G21M,Professional Learning/ Content of PL activities/ Analysis and use of student assessments,100.0
+TT4G21N,Professional Learning/ Content of PL activities/ Teacher-parent co-operation,100.0
+TT4G21O,Professional Learning/ Content of PL activities/ Methods for supporting students’ social and emotional learning,100.0
+TT4G21Q,Professional Learning/ Content of PL activities/ Play and peer interaction,100.0
+TT4G21R,Professional Learning/ Content of PL activities/ Children transitioning from <ISCED level 0> to <ISCED level 1>,100.0
+TT4G21S,Professional Learning/ Content of PL activities/ Other,100.0
+TT4G22,Professional Learning/ Positive impact of PL activities on teaching,100.0
+TT4G23A,Professional Learning/ Characteristics of PL of importance/ Buildt on my prior knowledge,100.0
+TT4G23B,Professional Learning/ Characteristics of PL of importance/ Adapted to my personal development needs,100.0
+TT4G23C,Professional Learning/ Characteristics of PL of importance/ Provided a coherent structure,100.0
+TT4G23D,Professional Learning/ Characteristics of PL of importance/ Focused on content needed to teach my subject,100.0
+TT4G23E,Professional Learning/ Characteristics of PL of importance/ Provided opportunities for my active learning,100.0
+TT4G23F,Professional Learning/ Characteristics of PL of importance/ Provided opportunities for collaborative sharing,100.0
+TT4G23G,Professional Learning/ Characteristics of PL of importance/ Provided opportunities to practise/apply new ideas,100.0
+TT4G23H,Professional Learning/ Characteristics of PL of importance/ Provided opportunities for reflection about my teaching,100.0
+TT4G23I,Professional Learning/ Characteristics of PL of importance/ Provided follow-up activities,100.0
+TT4G23J,Professional Learning/ Characteristics of PL of importance/ Addressed my school’s needs,100.0
+TT4G23K,Professional Learning/ Characteristics of PL of importance/ Involved most colleagues from this school,100.0
+TT4G23L,Professional Learning/ Characteristics of PL of importance/ Took place over an extended period of time,100.0
+TT4G24A,Professional Learning/ PL needs/ Knowledge and understanding of my subject field(s),100.0
+TT4G24B,Professional Learning/ PL needs/ The pedagogy of the subject matter(s) I teach,100.0
+TT4G24C,Professional Learning/ PL needs/ Knowledge of the curriculum,100.0
+TT4G24D,Professional Learning/ PL needs/ Student assessment practices,100.0
+TT4G24E,Professional Learning/ PL needs/ Pedagogical skills for incorporating <digital resources and tools>,100.0
+TT4G24F,Professional Learning/ PL needs/ Technical skills for the use of <digital resources and tools>,100.0
+TT4G24G,Professional Learning/ PL needs/ Skills for using artificial intelligence,100.0
+TT4G24H,Professional Learning/ PL needs/ Classroom management for student behaviour,100.0
+TT4G24I,Professional Learning/ PL needs/ School management and administration,100.0
+TT4G24J,Professional Learning/ PL needs/ Approaches to individualised learning,100.0
+TT4G24K,Professional Learning/ PL needs/ Teaching students with special education needs,100.0
+TT4G24L,Professional Learning/ PL needs/ Teaching in a multicultural or multilingual setting,100.0
+TT4G24M,Professional Learning/ PL needs/ Analysis and use of student assessments,100.0
+TT4G24N,Professional Learning/ PL needs/ Teacher-parent co-operation,100.0
+TT4G24O,Professional Learning/ PL needs/ Methods for supporting students' social and emotional learning,100.0
+TT4G24Q,Professional Learning/ PL needs/ Play and peer interaction,100.0
+TT4G24R,Professional Learning/ PL needs/ Children transitioning from <ISCED level 0> to <ISCED level 1>,100.0
+TT4G25A,Professional Learning/ Barriers to PL/ I do not have the pre-requisites,100.0
+TT4G25B,Professional Learning/ Barriers to PL/ Professional learning is too expensive,100.0
+TT4G25C,Professional Learning/ Barriers to PL/ There is a lack of employer support,100.0
+TT4G25D,Professional Learning/ Barriers to PL/ Professional learning conflicts with my work schedule,100.0
+TT4G25E,Professional Learning/ Barriers to PL/ I do not have time because responsibilities or commitments,100.0
+TT4G25F,Professional Learning/ Barriers to PL/ There is no relevant professional learning offered,100.0
+TT4G25G,Professional Learning/ Barriers to PL/ There are no incentives for participating in professional learning,100.0
+TT4G25H,Professional Learning/ Barriers to PL/ Professional learning is not accessible due to distance,100.0
+TT4G25I,Professional Learning/ Barriers to PL/ Professional learning is not accessible due to digital resources,100.0
+TT4G26A,Teaching in General/ Engagement in collaborative activities/ Teach jointly as a team in the same class,100.0
+TT4G26B,Teaching in General/ Engagement in collaborative activities/ Observe other teachers’ classes and provide feedback,100.0
+TT4G26C,Teaching in General/ Engagement in collaborative activities/ Engage in joint activities,100.0
+TT4G26D,Teaching in General/ Engagement in collaborative activities/ Exchange teaching materials with colleagues,100.0
+TT4G26E,Teaching in General/ Engagement in collaborative activities/ Engage in discussions about learning development,100.0
+TT4G26F,Teaching in General/ Engagement in collaborative activities/ Work with other teachers to ensure common standards,100.0
+TT4G26G,Teaching in General/ Engagement in collaborative activities/ Take part in collaborative professional learning,100.0
+TT4G26H,Teaching in General/ Engagement in collaborative activities/ Collaborate with parents or guardians,100.0
+TT4G27A,Teaching in General/ Self-efficacy in teaching/ Get students to believe they can do well in school work,100.0
+TT4G27B,Teaching in General/ Self-efficacy in teaching/ Help students value learning,100.0
+TT4G27C,Teaching in General/ Self-efficacy in teaching/ Craft good questions for students,100.0
+TT4G27D,Teaching in General/ Self-efficacy in teaching/ Control disruptive behaviour in the classroom,100.0
+TT4G27E,Teaching in General/ Self-efficacy in teaching/ Motivate students who show low interest in school work,100.0
+TT4G27F,Teaching in General/ Self-efficacy in teaching/ Make my expectations about student behaviour clear,100.0
+TT4G27G,Teaching in General/ Self-efficacy in teaching/ Help students think critically,100.0
+TT4G27H,Teaching in General/ Self-efficacy in teaching/ Get students to follow classroom rules,100.0
+TT4G27I,Teaching in General/ Self-efficacy in teaching/ Calm a student who is disruptive or noisy,100.0
+TT4G27J,Teaching in General/ Self-efficacy in teaching/ Use a variety of assessment strategies,100.0
+TT4G27K,Teaching in General/ Self-efficacy in teaching/ Provide an altern. explanation for example when students are confused,100.0
+TT4G27L,Teaching in General/ Self-efficacy in teaching/ Vary instructional strategies in my classroom,100.0
+TT4G27M,Teaching in General/ Self-efficacy in teaching/ Support learning through the use of <digital resources and tools>,100.0
+TT4G27N,Teaching in General/ Self-efficacy in teaching/ Help every student progress,100.0
+TT4G27O,Teaching in General/ Self-efficacy in teaching/ Reduce achievement gaps among students,100.0
+TT4G27P,Teaching in General/ Self-efficacy in teaching/ Support students’ social and emotional learning,100.0
+TT4G27R,Teaching in General/ Self-efficacy in teaching/ Help children prepare for starting <ISCED 2011 Level 1> school,100.0
+TT4G28A,Teaching in General/ Activities in school/ Adapt my teaching to the cultural diversity of students,100.0
+TT4G28B,Teaching in General/ Activities in school/ Ensure that students with and without a migrant background work together,100.0
+TT4G28C,Teaching in General/ Activities in school/ Raise awareness for cultural differences amongst students,100.0
+TT4G28D,Teaching in General/ Activities in school/ Reduce ethnic stereotyping amongst students,100.0
+TT4G28E,Teaching in General/ Activities in school/ Ensure that students with different backgrounds work together,100.0
+TT4G28F,Teaching in General/ Activities in school/ Critically examine the curriculum,100.0
+TT4G28G,Teaching in General/ Activities in school/ Use examples that are familiar to students,100.0
+TT4G30A,Teaching in General/ Beliefs about intelligence and learning/ Everyone has certain amount of intelligence,100.0
+TT4G30B,Teaching in General/ Beliefs about intelligence and learning/ People’s intelligence is something about them that they can't change,100.0
+TT4G30C,Teaching in General/ Beliefs about intelligence and learning/ Someone can learn new things but can't change their intelligence,100.0
+TT4G31A,Teaching in General/ Self-efficacy in teaching students with special education needs/ Work jointly with other professionals and staff,100.0
+TT4G31B,Teaching in General/ Self-efficacy in teaching students with special education needs/ Get parents/guardians involved in school activities,100.0
+TT4G31C,Teaching in General/ Self-efficacy in teaching students with special education needs/ Collaborate with other professionals in designing educational plans,100.0
+TT4G31D,Teaching in General/ Self-efficacy in teaching students with special education needs/ Inform others who know little about laws and policies,100.0
+TT4G31E,Teaching in General/ Self-efficacy in teaching students with special education needs/ Design learning tasks to accommodate students with special education needs,100.0
+TT4G31F,"Teaching in General/ Self-efficacy in teaching students with special education needs/ Adapt <state, province, regional> wide assessment",100.0
+TT4G32A,Teaching in General/ Comfort with social and emotional aspects of teaching/ Comfortable providing instruction on social and emotional skills,100.0
+TT4G32B,Teaching in General/ Comfort with social and emotional aspects of teaching/ Taking care of students’ social and emotional needs comes natural to me,100.0
+TT4G32C,Teaching in General/ Comfort with social and emotional aspects of teaching/ <Informal lessons> in social and emotional learning part of my regular teaching practice,100.0
+TT4G33A,Teaching in General/ Self-efficacy in using <digital resources and tools>/ Identify <digital resources and tools> to support the subject(s) I teach,100.0
+TT4G33B,Teaching in General/ Self-efficacy in using <digital resources and tools>/ Use <digital resources and tools> to present concepts differently,100.0
+TT4G33C,Teaching in General/ Self-efficacy in using <digital resources and tools>/ Choose <digital resources and tools> that enhance student learning,100.0
+TT4G33D,Teaching in General/ Self-efficacy in using <digital resources and tools>/ Adapt the use of <digital resources and tools> to different teaching activities,100.0
+TT4G33E,Teaching in General/ Self-efficacy in using <digital resources and tools>/ Explain the potential risks of <digital resources and tools>,100.0
+TT4G33F,Teaching in General/ Self-efficacy in using <digital resources and tools>/ Communicate with parents using <digital resources and tools>,100.0
+TT4G33G,Teaching in General/ Self-efficacy in using <digital resources and tools>/ Learn to use technology that is new to me,100.0
+TT4G34A,Teaching in General/ Beliefs about <digital resources and tools>/ Helps students develop greater interest in learning,100.0
+TT4G34B,Teaching in General/ Beliefs about <digital resources and tools>/ Helps students develop skills to plan and monitor work,100.0
+TT4G34C,Teaching in General/ Beliefs about <digital resources and tools>/ Helps improve students’ academic performance,100.0
+TT4G34D,Teaching in General/ Beliefs about <digital resources and tools>/ Distracts students from learning,100.0
+TT4G34E,Teaching in General/ Beliefs about <digital resources and tools>/ Limits personal communication among students,100.0
+TT4G34F,Teaching in General/ Beliefs about <digital resources and tools>/ Frequent use negatively impacts students’ well-being,100.0
+TT4G34G,Teaching in General/ Beliefs about <digital resources and tools>/ Results in students submitting Internet content,100.0
+TT4G34H,Teaching in General/ Beliefs about <digital resources and tools>/ Helps students collaborate on tasks efficiently,100.0
+TT4G35A,Teaching in General/ Beliefs about artificial intelligence in education/ Helps teachers write or improve lesson plans,100.0
+TT4G35B,Teaching in General/ Beliefs about artificial intelligence in education/ Enables teachers to adapt learning material,100.0
+TT4G35C,Teaching in General/ Beliefs about artificial intelligence in education/ Assists teachers in supporting students individually,100.0
+TT4G35D,Teaching in General/ Beliefs about artificial intelligence in education/ Supports students with special education needs,100.0
+TT4G35E,Teaching in General/ Beliefs about artificial intelligence in education/ Helps teachers automate administrative tasks,100.0
+TT4G35F,Teaching in General/ Beliefs about artificial intelligence in education/ Enables students to misrepresent others’ work,100.0
+TT4G35G,Teaching in General/ Beliefs about artificial intelligence in education/ Makes inappropriate or incorrect recommendations,100.0
+TT4G35H,Teaching in General/ Beliefs about artificial intelligence in education/ Amplifies biases,100.0
+TT4G35I,Teaching in General/ Beliefs about artificial intelligence in education/ Jeopardises the privacy and security of student data,100.0
+TT4G35J,Teaching in General/ Beliefs about artificial intelligence in education/ Suggests unsuitable pedagogical approaches,100.0
+TT4G36,Teaching in General/ Used artificial intelligence during the last 12 months,100.0
+TT4G37A,Teaching in General/ Used artificial intelligence/ To assess or mark student work,100.0
+TT4G37B,Teaching in General/ Used artificial intelligence/ To efficiently learn about and summarise a topic,100.0
+TT4G37C,Teaching in General/ Used artificial intelligence/ To generate lesson plans or activities,100.0
+TT4G37D,Teaching in General/ Used artificial intelligence/ To support students with special education needs,100.0
+TT4G37E,Teaching in General/ Used artificial intelligence/ To automatically adjust the difficulty of lesson materials,100.0
+TT4G37F,Teaching in General/ Used artificial intelligence/ To generate text for student feedback or communication with parents,100.0
+TT4G37G,Teaching in General/ Used artificial intelligence/ To review data on student participation or performance,100.0
+TT4G37H,Teaching in General/ Used artificial intelligence/ To help students practice new skills in real-life scenarios,100.0
+TT4G37I,Teaching in General/ Used artificial intelligence/ Other,100.0
+TT4G38A,Teaching in General/ Reasons for not using artificial intelligence/ School lacks the infrastructure,100.0
+TT4G38B,Teaching in General/ Reasons for not using artificial intelligence/ Do not have the knowledge and skills,100.0
+TT4G38C,Teaching in General/ Reasons for not using artificial intelligence/ Do not believe we should use artificial intelligence,100.0
+TT4G38D,Teaching in General/ Reasons for not using artificial intelligence/ School does not allow,100.0
+TT4G38E,Teaching in General/ Reasons for not using artificial intelligence/ Feel overwhelmed by integrating new technologies,100.0
+TT4G38F,Teaching in General/ Reasons for not using artificial intelligence/ Other,100.0
+TT4G47A,Teaching in the <Target Class>/ Class composition/ Students with difficulties understanding the language(s) of instruction,100.0
+TT4G47B,Teaching in the <Target Class>/ Class composition/ Students' [first language] different from the language of instruction,100.0
+TT4G47C,Teaching in the <Target Class>/ Class composition/ Low academic achievers,100.0
+TT4G47D,Teaching in the <Target Class>/ Class composition/ Academically gifted students,100.0
+TT4G47E,Teaching in the <Target Class>/ Class composition/ Students with special education needs,100.0
+TT4G47F,Teaching in the <Target Class>/ Class composition/ Students with behavioural problems,100.0
+TT4G47G,Teaching in the <Target Class>/ Class composition/ Students from <socio-economically disadvantaged homes>,100.0
+TT4G47H,Teaching in the <Target Class>/ Class composition/ Students belonging to <ethnic/national minorities>,100.0
+TT4G47I,Teaching in the <Target Class>/ Class composition/ Male students,100.0
+TT4G47J,Teaching in the <Target Class>/ Class composition/ Students who are immigrants or with migrant background,100.0
+TT4G47K,Teaching in the <Target Class>/ Class composition/ Students who are refugees,100.0
+TT4G48A,Teaching in the <Target Class>/ Primary subject category of <target class>,100.0
+TT4G48BA,"Teaching in the <Target Class>/ Primary subject category/ Reading, writing and literature",100.0
+TT4G48BB,Teaching in the <Target Class>/ Primary subject category/ Mathematics,100.0
+TT4G48BC,Teaching in the <Target Class>/ Primary subject category/ Science,100.0
+TT4G48BD,Teaching in the <Target Class>/ Primary subject category/ Social studies,100.0
+TT4G48BE,Teaching in the <Target Class>/ Primary subject category/ Modern foreign languages,100.0
+TT4G48BF,Teaching in the <Target Class>/ Primary subject category/ Ancient Greek and/or Latin,100.0
+TT4G48BG,Teaching in the <Target Class>/ Primary subject category/ Technology,100.0
+TT4G48BH,Teaching in the <Target Class>/ Primary subject category/ Arts,100.0
+TT4G48BI,Teaching in the <Target Class>/ Primary subject category/ Physical education,100.0
+TT4G48BJ,Teaching in the <Target Class>/ Primary subject category/ Religion and/or ethics,100.0
+TT4G48BK,Teaching in the <Target Class>/ Primary subject category/ Practical and vocational skills,100.0
+TT4G48BL,Teaching in the <Target Class>/ Primary subject category/ Other,100.0
+TT4G49,Teaching in the <Target Class>/ Primary subject category of <target class> included in formal education or training,100.0
+TT4G50A,Teaching in the <Target Class>/ Percentage of <class> time typically spent on activities/ Administrative tasks,100.0
+TT4G50B,Teaching in the <Target Class>/ Percentage of <class> time typically spent on activities/ Keeping order in classroom,100.0
+TT4G50C,Teaching in the <Target Class>/ Percentage of <class> time typically spent on activities/ Actual teaching and learning,100.0
+TT4G51A,Teaching in the <Target Class>/ Teaching practices/ I present a summary of recently learned content,100.0
+TT4G51B,Teaching in the <Target Class>/ Teaching practices/ I set goals at the beginning of instruction,100.0
+TT4G51C,Teaching in the <Target Class>/ Teaching practices/ I explain what I expect the students to learn,100.0
+TT4G51D,Teaching in the <Target Class>/ Teaching practices/ I explain how new and old topics are related,100.0
+TT4G51E,Teaching in the <Target Class>/ Teaching practices/ I present tasks for which there is no obvious solution,100.0
+TT4G51F,Teaching in the <Target Class>/ Teaching practices/ I give tasks that require students to think critically,100.0
+TT4G51G,Teaching in the <Target Class>/ Teaching practices/ I have students work in small groups to come up with a solution,100.0
+TT4G51H,Teaching in the <Target Class>/ Teaching practices/ I ask students to decide on own procedures for solving complex tasks,100.0
+TT4G51I,Teaching in the <Target Class>/ Teaching practices/ I tell students to follow classroom rules,100.0
+TT4G51J,Teaching in the <Target Class>/ Teaching practices/ I tell students to listen to what I say,100.0
+TT4G51K,Teaching in the <Target Class>/ Teaching practices/ I calm students who are disruptive,100.0
+TT4G51L,"Teaching in the <Target Class>/ Teaching practices/ When the lesson begins, I tell students to quiet down quickly",100.0
+TT4G51M,Teaching in the <Target Class>/ Teaching practices/ I refer to a problem from everyday life or work to demonstrate why new knowledge is useful,100.0
+TT4G51N,Teaching in the <Target Class>/ Teaching practices/ I give students projects that require at least one week to complete,100.0
+TT4G51O,Teaching in the <Target Class>/ Teaching practices/ I encourage students to question and critique arguments,100.0
+TT4G52A,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Use <digital resources and tools> to present information,100.0
+TT4G52B,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Replace printed materials with digital versions,100.0
+TT4G52C,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Provide digital feedback on student work,100.0
+TT4G52D,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Download lesson plans from the Internet for direct use in class,100.0
+TT4G52E,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Use <digital resources and tools> to enable collaboration,100.0
+TT4G52F,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Use <digital resources and tools> to handle logistic aspects of teaching,100.0
+TT4G52G,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Support collaboration among students using <digital resources and tools>,100.0
+TT4G52H,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Use <digital resources and tools> that provide learning paths,100.0
+TT4G52I,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Use <digital resources and tools> to assess student learning,100.0
+TT4G52J,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Provide <digital resources and tools> that allow students planning and monitoring learning,100.0
+TT4G52K,Teaching in the <Target Class>/ Teaching practices related to the use of digital resources and tools/ Give students problems that can only be solved using <digital resources and tools>,100.0
+TT4G53A,Teaching in the <Target Class>/ Student assessment methods/ I administer an assessment at the end of a unit or block of lessons,100.0
+TT4G53B,Teaching in the <Target Class>/ Student assessment methods/ I give a <mark> to communicate to students,100.0
+TT4G53C,Teaching in the <Target Class>/ Student assessment methods/ I provide oral or written feedback,100.0
+TT4G53D,Teaching in the <Target Class>/ Student assessment methods/ I ask students to assess their own progress,100.0
+TT4G53E,Teaching in the <Target Class>/ Student assessment methods/ I observe students on tasks and provide immediate feedback,100.0
+TT4G53F,Teaching in the <Target Class>/ Student assessment methods/ I use assessments,100.0
+TT4G54A,Teaching in the <Target Class>/ Disciplinary climate/ There is much disruptive noise and disorder in the classroom,100.0
+TT4G54B,Teaching in the <Target Class>/ Disciplinary climate/ I have to wait a long time for students to quiet down,100.0
+TT4G54C,Teaching in the <Target Class>/ Disciplinary climate/ Many students don’t start working after the lesson begins,100.0
+TT4G54D,Teaching in the <Target Class>/ Disciplinary climate/ I lose quite a lot of time because of students interrupting lesson,100.0
+TT4G55A,Teaching in the <Target Class>/ Adaptive teaching practices/ I consider students’ prior knowledge and needs,100.0
+TT4G55B,Teaching in the <Target Class>/ Adaptive teaching practices/ I point students to different materials,100.0
+TT4G55C,Teaching in the <Target Class>/ Adaptive teaching practices/ I change my way of explaining,100.0
+TT4G55D,Teaching in the <Target Class>/ Adaptive teaching practices/ I adapt my teaching methods to students' needs,100.0
+TT4G55E,Teaching in the <Target Class>/ Adaptive teaching practices/ I ask questions at various difficulty levels,100.0
+TT4G56A,Teaching in the <Target Class>/ Teaching practices related to student practice/ I let students review multiple examples,100.0
+TT4G56B,Teaching in the <Target Class>/ Teaching practices related to student practice/ I select tasks for student practice that gradually increase in difficulty,100.0
+TT4G56C,Teaching in the <Target Class>/ Teaching practices related to student practice/ I prepare students for difficulties that can occur while practicing,100.0
+TT4G56D,Teaching in the <Target Class>/ Teaching practices related to student practice/ I let students practise similar tasks,100.0
+TT4G57A,Teaching in the <Target Class>/ Autonomy in teaching/ Implementing the curriculum in a flexible way,100.0
+TT4G57B,Teaching in the <Target Class>/ Autonomy in teaching/ Selecting teaching methods and strategies,100.0
+TT4G57C,Teaching in the <Target Class>/ Autonomy in teaching/ Choosing assessment activities,100.0
+TT4G57D,Teaching in the <Target Class>/ Autonomy in teaching/ Selecting learning objectives,100.0
+TT4G57E,Teaching in the <Target Class>/ Autonomy in teaching/ Designing and preparing lessons,100.0
+TT4G58A,Teaching in the <Target Class>/ Achieved lesson aims/ Presenting the content in a comprehensible way,100.0
+TT4G58B,Teaching in the <Target Class>/ Achieved lesson aims/ Engaging students in work that challenges them,100.0
+TT4G58C,Teaching in the <Target Class>/ Achieved lesson aims/ Providing students with feedback to support their learning,100.0
+TT4G58D,Teaching in the <Target Class>/ Achieved lesson aims/ Offering students opportunities to practice what they learned,100.0
+TT4G58E,Teaching in the <Target Class>/ Achieved lesson aims/ Adapting teaching to meet the different needs of students,100.0
+TT4G58F,"Teaching in the <Target Class>/ Achieved lesson aims/ Helping students to manage their own emotions, thoughts, and behaviour",100.0
+TT4G58G,Teaching in the <Target Class>/ Achieved lesson aims/ Managing student behaviour,100.0
+TT4G59A,Teaching in the <Target Class>/ Instruction hindered by infrastructure or environment/ Inability to control lighting levels,100.0
+TT4G59B,Teaching in the <Target Class>/ Instruction hindered by infrastructure or environment/ Bad acoustics,100.0
+TT4G59C,Teaching in the <Target Class>/ Instruction hindered by infrastructure or environment/ Inability to control the heating system,100.0
+TT4G59D,Teaching in the <Target Class>/ Instruction hindered by infrastructure or environment/ Poor air quality,100.0
+TT4G59E,Teaching in the <Target Class>/ Instruction hindered by infrastructure or environment/ Inability to adjust the air cooling,100.0
+TT4G59F,Teaching in the <Target Class>/ Instruction hindered by infrastructure or environment/ Lack of access to natural elements,100.0
+TT4G60A,Teaching in the <Target Class>/ Empathising with students/ Be aware of my students’ feelings,100.0
+TT4G60B,Teaching in the <Target Class>/ Empathising with students/ Show warmth to my students,100.0
+TT4G60C,Teaching in the <Target Class>/ Empathising with students/ Care about the problems of my students,100.0
+TT4G60D,Teaching in the <Target Class>/ Empathising with students/ Be empathetic towards my students,100.0
+TT4G60E,Teaching in the <Target Class>/ Empathising with students/ Care about the social and emotional problems of my students,100.0
+TT4G61A,"Teaching in the <Target Class>/ Students' social and emotional skill development/ Understanding their own emotions, thoughts, or behaviour",100.0
+TT4G61B,"Teaching in the <Target Class>/ Students' social and emotional skill development/ Managing their own emotions, thoughts, or behaviour",100.0
+TT4G61C,Teaching in the <Target Class>/ Students' social and emotional skill development/ Understanding the perspectives of others,100.0
+TT4G61D,Teaching in the <Target Class>/ Students' social and emotional skill development/ Empathising with others,100.0
+TT4G61E,Teaching in the <Target Class>/ Students' social and emotional skill development/ Establishing and maintaining healthy relationships with others,100.0
+TT4G61F,Teaching in the <Target Class>/ Students' social and emotional skill development/ Making caring and constructive choices about their personal actions,100.0
+TT4G62A,Teaching in the <Target Class>/ Students' relationship skills/ Monitor his behaviour over the next 2 weeks to see if it improves,100.0
+TT4G62B,Teaching in the <Target Class>/ Students' relationship skills/ Arrange a meeting with your colleague,100.0
+TT4G62C,Teaching in the <Target Class>/ Students' relationship skills/ Have a discussion with him after your next lesson,100.0
+TT4G62D,Teaching in the <Target Class>/ Students' relationship skills/ Other,100.0
+TT4G63A,Teaching in the <Target Class>/ Students' social awareness/ Identify a role that she can focus on when working in a group,100.0
+TT4G63B,Teaching in the <Target Class>/ Students' social awareness/ Start the class by clarifying expectations and responsibilities,100.0
+TT4G63C,Teaching in the <Target Class>/ Students' social awareness/ Encourage her by commenting on her ability,100.0
+TT4G63D,Teaching in the <Target Class>/ Students' social awareness/ Other,100.0
+TT4G64A,School Climate/ General school climate/ School provides staff opportunities to participate in school decisions,100.0
+TT4G64B,School Climate/ General school climate/ School provides parents/guardians with opportunities to actively participate,100.0
+TT4G64C,School Climate/ General school climate/ School provides students with opportunities to participate,100.0
+TT4G64D,School Climate/ General school climate/ There is a collaborative school culture,100.0
+TT4G64E,School Climate/ General school climate/ The school staff share a common set of beliefs about teaching and learning,100.0
+TT4G64F,School Climate/ General school climate/ The school staff enforces rules for student behaviour consistently,100.0
+TT4G64G,School Climate/ General school climate/ This school encourages staff to lead new initiatives,100.0
+TT4G64H,School Climate/ General school climate/ Teachers can rely on each other,100.0
+TT4G64I,School Climate/ General school climate/ Teachers take leadership roles in promoting a professional learning community,100.0
+TT4G64J,School Climate/ General school climate/ Teachers initiate and lead collaborative activities,100.0
+TT4G64K,School Climate/ General school climate/ Teachers lead their professional growth and development activities,100.0
+TT4G64L,School Climate/ General school climate/ Teachers participate in non-teaching school events and projects,100.0
+TT4G65A,School Climate/ Teacher-student relations/ Teachers and students usually get on well with each other,100.0
+TT4G65B,School Climate/ Teacher-student relations/ Most teachers believe that the students’ well-being is important,100.0
+TT4G65C,School Climate/ Teacher-student relations/ Most teachers are interested in what students have to say,100.0
+TT4G65D,"School Climate/ Teacher-student relations/ If a student needs extra assistance, the school provides it",100.0
+TT4G66A,School Climate/ Perceptions about the principal/ Principal has a clear vision for this school,100.0
+TT4G66B,School Climate/ Perceptions about the principal/ Principal encourages co-operation among teachers,100.0
+TT4G66C,School Climate/ Perceptions about the principal/ Principal ensures that teachers to take responsibility for improving teaching skills,100.0
+TT4G66D,School Climate/ Perceptions about the principal/ Principal ensures that teachers feel responsible for students learning outcomes,100.0
+TT4G66E,School Climate/ Perceptions about the principal/ Principal encourages all staff to have a say on important decisions,100.0
+TT4G66F,School Climate/ Perceptions about the principal/ Principal has good professional relationships with staff,100.0
+TT4G66G,School Climate/ Perceptions about the principal/ Principal has good professional relationships with parents or guardians,100.0
+TT4G66H,School Climate/ Perceptions about the principal/ Principal has good professional relationships with students,100.0
+TT4G66I,School Climate/ Perceptions about the principal/ Principal ensures that teachers’ performance is monitored effectively,100.0
+TT4G66J,School Climate/ Perceptions about the principal/ Principal provides useful feedback to teachers and staff,100.0
+TT4G67A,School Climate/ Relational school climate/ Teachers can rely on the <school management team>,100.0
+TT4G67B,School Climate/ Relational school climate/ The principal has confidence in the expertise of the teachers,100.0
+TT4G67C,School Climate/ Relational school climate/ Students can be counted on to do their school work,100.0
+TT4G67D,School Climate/ Relational school climate/ Students can be counted on to do their homework,100.0
+TT4G68A1,School Climate/ Feedback types/ Observation of classroom teaching/ External individuals or bodies,100.0
+TT4G68A2,School Climate/ Feedback types/ Observation of classroom teaching/ Principal or member(s) of SMT,100.0
+TT4G68A3,School Climate/ Feedback types/ Observation of classroom teaching/ Other colleagues within the school,100.0
+TT4G68A4,School Climate/ Feedback types/ Observation of classroom teaching/ I have never received this Feedback types,100.0
+TT4G68B1,School Climate/ Feedback types/ Student survey response/ External individuals or bodies,100.0
+TT4G68B2,School Climate/ Feedback types/ Student survey responses/ Principal or member(s) of SMT,100.0
+TT4G68B3,School Climate/ Feedback types/ Student survey responses/ Other colleagues within the school,100.0
+TT4G68B4,School Climate/ Feedback types/ Student survey responses/ I have never received this Feedback types,100.0
+TT4G68C1,School Climate/ Feedback types/ Assessment of content knowledge/ External individuals or bodies,100.0
+TT4G68C2,School Climate/ Feedback types/ Assessment of content knowledge/ Principal or member(s) of SMT,100.0
+TT4G68C3,School Climate/ Feedback types/ Assessment of content knowledge/ Other colleagues within the school,100.0
+TT4G68C4,School Climate/ Feedback types/ Assessment of content knowledge/ I have never received this Feedback types,100.0
+TT4G68D1,School Climate/ Feedback types/ My students’ external results/ External individuals or bodies,100.0
+TT4G68D2,School Climate/ Feedback types/ My students’ external results/ Principal or member(s) of SMT,100.0
+TT4G68D3,School Climate/ Feedback types/ My students’ external results/ Other colleagues within the school,100.0
+TT4G68D4,School Climate/ Feedback types/ My students’ external results/ I have never received this Feedback types,100.0
+TT4G68E1,School Climate/ Feedback types/ School and classroom results/ External individuals or bodies,100.0
+TT4G68E2,School Climate/ Feedback types/ School and classroom results/ Principal or member(s) of SMT,100.0
+TT4G68E3,School Climate/ Feedback types/ School and classroom results/ Other colleagues within the school,100.0
+TT4G68E4,School Climate/ Feedback types/ School and classroom results/ I have never received this Feedback types,100.0
+TT4G68F1,School Climate/ Feedback types/ Self-assessment of my work/ External individuals or bodies,100.0
+TT4G68F2,School Climate/ Feedback types/ Self-assessment of my work/ Principal or member(s) of SMT,100.0
+TT4G68F3,School Climate/ Feedback types/ Self-assessment of my work/ Other colleagues within the school,100.0
+TT4G68F4,School Climate/ Feedback types/ Self-assessment of my work/ I have never received this Feedback types,100.0
+TT4G69A,School Climate/ Impact of feedback/ Knowledge and understanding of my field(s),100.0
+TT4G69B,School Climate/ Impact of feedback/ Pedagogical competencies in teaching my subject,100.0
+TT4G69C,School Climate/ Impact of feedback/ Use of student assessments to improve student learning,100.0
+TT4G69D,School Climate/ Impact of feedback/ Classroom management for student behaviour,100.0
+TT4G69E,School Climate/ Impact of feedback/ Methods for teaching students with special educational needs,100.0
+TT4G69F,School Climate/ Impact of feedback/ Methods for teaching in a multicultural or multilingual setting,100.0
+TT4G69G,School Climate/ Impact of feedback/ Methods for teaching with <digital resources and tools>,100.0
+TT4G69H,School Climate/ Impact of feedback/ Methods for supporting students’ social and emotional learning,100.0
+TT4G70A,School Climate/ Student bullying/ Teachers at this school make it clear to students that bullying is not tolerated,100.0
+TT4G70B,"School Climate/ Student bullying/ At this school, students tell teachers when other students are being bullied",100.0
+TT4G70C,School Climate/ Student bullying/ There are adults at this school students could turn to with a personal problem,100.0
+TT4G70D,School Climate/ Student bullying/ The teachers at this school are genuinely concerned about the students,100.0
+TT4G70E,School Climate/ Student bullying/ Bullying among students is a problem at this school,100.0
+TT4G71A,School Climate/ Student harassment/ Students get teased about their clothing or physical appearance,100.0
+TT4G71B,School Climate/ Student harassment/ Students at this school get put down because of their ethnicity,100.0
+TT4G71C,School Climate/ Student harassment/ Students get teased about their gender expression and sexuality,100.0
+TT4G71D,School Climate/ Student harassment/ There are adults that students belonging to minorities could turn to,100.0
+TT4G71E,School Climate/ Student harassment/ There are adults at school students could turn to,100.0
+TT4G72A,School Climate/ Change management/ Too many change initiatives are introduced at this school,100.0
+TT4G72B,School Climate/ Change management/ I am tired of all the changes in this school,100.0
+TT4G72C,School Climate/ Change management/ We are asked to change too many things in this school,100.0
+TT4G72D,School Climate/ Change management/ It feels like we are always being asked to change something around here,100.0
+TT4G72E,School Climate/ Change management/ I would like to see a period of stability before we change anything else,100.0
+TT4G72F,School Climate/ Change management/ I am asked to implement change initiatives without the necessary resources,100.0
+TT4G73A,Occupational Perceptions/ Importance of factors/ Teaching suits my abilities,100.0
+TT4G73B,Occupational Perceptions/ Importance of factors/ Teaching is a secure job,100.0
+TT4G73C,Occupational Perceptions/ Importance of factors/ Working hours fit with my family responsibilities,100.0
+TT4G73D,Occupational Perceptions/ Importance of factors/ Teaching has commitment flexibility,100.0
+TT4G73E,Occupational Perceptions/ Importance of factors/ Teaching allows me to influence the next generation,100.0
+TT4G73F,Occupational Perceptions/ Importance of factors/ Teaching allows me to work against social disadvantage,100.0
+TT4G73G,Occupational Perceptions/ Importance of factors/ Teaching makes a worthwhile social contribution,100.0
+TT4G73H,Occupational Perceptions/ Importance of factors/ I like working with children/adolescents,100.0
+TT4G73I,Occupational Perceptions/ Importance of factors/ Teaching allows me to exercise autonomy,100.0
+TT4G74,Occupational Perceptions/ Number of years want to continue to work as a teacher,100.0
+TT4G75A,Occupational Perceptions/ Attrition factors/ A non-teaching position within education,100.0
+TT4G75B,Occupational Perceptions/ Attrition factors/ A job outside of education,100.0
+TT4G75C,Occupational Perceptions/ Attrition factors/ Further education or training,100.0
+TT4G75D,Occupational Perceptions/ Attrition factors/ Personal or family reasons,100.0
+TT4G75E,Occupational Perceptions/ Attrition factors/ Retirement from work sector,100.0
+TT4G76A,Occupational Perceptions/ Experiences as a teacher at this school/ I experience stress in my work,100.0
+TT4G76B,Occupational Perceptions/ Experiences as a teacher at this school/ My job leaves me time for my personal life,100.0
+TT4G76C,Occupational Perceptions/ Experiences as a teacher at this school/ My job negatively impacts my mental health,100.0
+TT4G76D,Occupational Perceptions/ Experiences as a teacher at this school/ My job negatively impacts my physical health,100.0
+TT4G77A,Occupational Perceptions/ Sources of stress in work/ Having too much lesson preparation,100.0
+TT4G77B,Occupational Perceptions/ Sources of stress in work/ Having too many lessons to teach,100.0
+TT4G77C,Occupational Perceptions/ Sources of stress in work/ Having too much marking,100.0
+TT4G77D,Occupational Perceptions/ Sources of stress in work/ Having too much administrative work to do,100.0
+TT4G77E,Occupational Perceptions/ Sources of stress in work/ Having extra duties due to absent teachers,100.0
+TT4G77F,Occupational Perceptions/ Sources of stress in work/ Being held responsible for students’ achievement,100.0
+TT4G77G,Occupational Perceptions/ Sources of stress in work/ Maintaining classroom discipline,100.0
+TT4G77H,Occupational Perceptions/ Sources of stress in work/ Being intimidated or verbally abused by students,100.0
+TT4G77I,Occupational Perceptions/ Sources of stress in work/ Keeping up with changing requirements from authorities,100.0
+TT4G77J,Occupational Perceptions/ Sources of stress in work/ Addressing parent or guardian concerns,100.0
+TT4G77K,Occupational Perceptions/ Sources of stress in work/ Modifying lessons for students with special education needs,100.0
+TT4G77L,Occupational Perceptions/ Sources of stress in work/ Being held responsible for students’ well-being,100.0
+TT4G77M,Occupational Perceptions/ Sources of stress in work/ Keeping up with curriculum or programme changes in this school,100.0
+TT4G77N,Occupational Perceptions/ Sources of stress in work/ Having too much work on diversity and equity issues,100.0
+TT4G77O,Occupational Perceptions/ Sources of stress in work/ Having to adapt my work due to unexpected disruptions,100.0
+TT4G77P,Occupational Perceptions/ Sources of stress in work/ Keeping up with professional learning,100.0
+TT4G78A,Occupational Perceptions/ Job satisfaction/ The advantages clearly outweigh the disadvantages,100.0
+TT4G78B,"Occupational Perceptions/ Job satisfaction/ If I could decide again, I would still choose to work as a teacher",100.0
+TT4G78C,Occupational Perceptions/ Job satisfaction/ I would like to change to another school if that were possible,100.0
+TT4G78D,Occupational Perceptions/ Job satisfaction/ I regret that I decided to become a teacher,100.0
+TT4G78E,Occupational Perceptions/ Job satisfaction/ I enjoy working at this school,100.0
+TT4G78F,Occupational Perceptions/ Job satisfaction/ I wonder whether it would be better to choose another profession,100.0
+TT4G78G,Occupational Perceptions/ Job satisfaction/ I would recommend my school as a good place to work,100.0
+TT4G78H,Occupational Perceptions/ Job satisfaction/ I think that the teaching profession is valued in society,100.0
+TT4G78I,Occupational Perceptions/ Job satisfaction/ I am satisfied with my performance in this school,100.0
+TT4G78J,"Occupational Perceptions/ Job satisfaction/ All in all, I am satisfied with my job",100.0
+TT4G79A,Occupational Perceptions/ Perceptions of teachers' value/ I am satisfied with the salary I receive for my work,100.0
+TT4G79B,"Occupational Perceptions/ Perceptions of teachers' value/ Apart from salary, I am satisfied with <contract/employment>",100.0
+TT4G79C,Occupational Perceptions/ Perceptions of teachers' value/ Teachers are valued by students in this school,100.0
+TT4G79D,Occupational Perceptions/ Perceptions of teachers' value/ Teachers are valued by parents/guardians,100.0
+TT4G79E,Occupational Perceptions/ Perceptions of teachers' value/ Teachers’ views are valued by policymakers,100.0
+TT4G79F,Occupational Perceptions/ Perceptions of teachers' value/ Teachers can influence educational policy,100.0
+TT4G79G,Occupational Perceptions/ Perceptions of teachers' value/ Teachers are valued in the media,100.0
+TT4G80A,Occupational Perceptions/ Enjoyment of teaching/ I like the subject(s) that I teach,100.0
+TT4G80B,Occupational Perceptions/ Enjoyment of teaching/ I often feel happy while I teach,100.0
+TT4G80C,Occupational Perceptions/ Enjoyment of teaching/ I generally teach with enthusiasm,100.0
+TT4G80D,Occupational Perceptions/ Enjoyment of teaching/ The interesting challenges of teaching give me satisfaction,100.0
+TT4G82A,"Teacher Mobility/ Been abroad for professional purposes/ As a student, as part of my teacher <education or training>",100.0
+TT4G82B,Teacher Mobility/ Been abroad for professional purposes/ As a teacher in an EU programme,100.0
+TT4G82C,Teacher Mobility/ Been abroad for professional purposes/ As a teacher in a regional or national programme,100.0
+TT4G82D,"Teacher Mobility/ Been abroad for professional purposes/ As a teacher, as arranged by a school or school district",100.0
+TT4G82E,"Teacher Mobility/ Been abroad for professional purposes/ As a teacher, by my own initiative",100.0
+TT4G83A,"Teacher Mobility/ Professional purposes of visits abroad/ Studying, as part of my teacher education",100.0
+TT4G83B,Teacher Mobility/ Professional purposes of visits abroad/ Language learning,100.0
+TT4G83C,Teacher Mobility/ Professional purposes of visits abroad/ Learning of other subject areas,100.0
+TT4G83D,Teacher Mobility/ Professional purposes of visits abroad/ Accompanying visiting students,100.0
+TT4G83E,Teacher Mobility/ Professional purposes of visits abroad/ Establishing contact with schools abroad,100.0
+TT4G83F,Teacher Mobility/ Professional purposes of visits abroad/ Teaching,100.0
+TT4G83G,Teacher Mobility/ Professional purposes of visits abroad/ Other,100.0
+TT4G84,Teacher Mobility/ Duration stayed abroad for professional purposes,100.0
+T4TAGEGR,Teacher age (grouped),100.0
+T4THEDAT,Teacher's highest level of formal education completed (grouped),100.0
+T4TYQUAL,Year of completion of first teaching qualification (grouped),100.0
+T4TEMPWH,Teacher's employment status in terms of working hours (grouped),100.0
+T4CLSINF,Classroom infrastructure quality,100.0
+T4FASPR,Index of methods of assessing student learning,100.0
+T4TYEXPE,Teacher's years of work experience in other education roles (grouped),100.0
+T4TNSCH,Number of schools teacher works at,100.0
+T4TYEXPTS,Teacher's years of work experience at this school (grouped),100.0
+T4TYEXPTT,Teacher's years of work experience in total (grouped),100.0
+T4TYEXPO,Teacher's years of work experience in other non-education roles (grouped),100.0
+T4TCSIZE,Target class size (grouped),100.0
+T4TLANGN,Multilingualism,100.0
+T4PDSUBMP,Need for professional development in subject matter and subject-specific pedagogy,100.0
+T4PDIV,Need for professional development for teaching for diversity,100.0
+T4PDBR,Barriers to professional development: lack of support in access,100.0
+T4EXINF,Exchange of information and ideas among teachers,100.0
+T4COLES,Professional collaboration in lessons among teachers,100.0
+T4SECLS,Self-efficacy in classroom management,100.0
+T4SEINS,Self-efficacy in instruction,100.0
+T4SEENG,Self-efficacy in student engagement,100.0
+T4SELF,"Self-efficacy, overall",100.0
+T4SEMUL,Self-efficacy in multicultural classrooms,100.0
+T4GROMST,Growth mindset,100.0
+T4SESEN,Self-efficacy in special education needs,100.0
+T4COMSEL,Comfort with social and emotional aspects of teaching,100.0
+T4SEDRT,Self-efficacy in using digital resources and tools,100.0
+T4BLFDRT,Beliefs in digital resources and tools,100.0
+T4ADVDRT,Adversity to digital resources and tools,100.0
+T4CLAIN,Clarity of instruction,100.0
+T4COGAC,Cognitive activation,100.0
+T4CLASM,Classroom management,100.0
+T4PDGENP,Need for professional development in general pedagogy,100.0
+T4DRTWCI,Use of digital resources and tools for whole class instruction,100.0
+T4DRTIIA,Use of digital resources and tools for individualized instruction and assessment,100.0
+T4EMPS,Empathy with students,100.0
+T4CLSDIS,Perceived classroom disruption,100.0
+T4ADLE,Adaptive learning,100.0
+T4PBLE,Progression-based learning,100.0
+T4AUTCH,Autonomy of teaching,100.0
+T4FULFIL,Fulfilment of lesson aims (complexity of teaching),100.0
+T4OPPART,Opportunities to participate in school decisions,100.0
+T4SESDEV,Social and emotional skill development,100.0
+T4TLEAD,Teacher leadership,100.0
+T4STUD,Teacher-student relations,100.0
+T4RELEAD,Relational leadership,100.0
+T4INSTLE,Instructional leadership,100.0
+T4CLIBUL,School climate regarding bullying,100.0
+T4STUHAR,Student harassment in school,100.0
+T4CHFAT,Change fatigue,100.0
+T4MOPU,Personal utility motivations to teach,100.0
+T4MOSU,Social utility motivations to teach,100.0
+T4WELS,Workplace well-being and stress,100.0
+T4WLOADT,Workload stress,100.0
+T4STBEH,Student behaviour stress,100.0
+T4JSENVT,Job satisfaction with work environment,100.0
+T4JSPROT,Job satisfaction with profession,100.0
+T4JOBSAT,"Job satisfaction, overall",100.0
+T4VALP,Perceptions of value and policy influence,100.0
+T4JOYTCH,Joy of teaching,100.0
+IDPOP,Population ID,100.0
+ADJRT24,Data adjudication rating,100.0
+SCHWGTT,School Final Weight,100.0
+TCHWGT,Teacher Final Weight,100.0
+TRWGT1,Teacher BRR-Fay Replicate Weight 1,100.0
+TRWGT2,Teacher BRR-Fay Replicate Weight 2,100.0
+TRWGT3,Teacher BRR-Fay Replicate Weight 3,100.0
+TRWGT4,Teacher BRR-Fay Replicate Weight 4,100.0
+TRWGT5,Teacher BRR-Fay Replicate Weight 5,100.0
+TRWGT6,Teacher BRR-Fay Replicate Weight 6,100.0
+TRWGT7,Teacher BRR-Fay Replicate Weight 7,100.0
+TRWGT8,Teacher BRR-Fay Replicate Weight 8,100.0
+TRWGT9,Teacher BRR-Fay Replicate Weight 9,100.0
+TRWGT10,Teacher BRR-Fay Replicate Weight 10,100.0
+TRWGT11,Teacher BRR-Fay Replicate Weight 11,100.0
+TRWGT12,Teacher BRR-Fay Replicate Weight 12,100.0
+TRWGT13,Teacher BRR-Fay Replicate Weight 13,100.0
+TRWGT14,Teacher BRR-Fay Replicate Weight 14,100.0
+TRWGT15,Teacher BRR-Fay Replicate Weight 15,100.0
+TRWGT16,Teacher BRR-Fay Replicate Weight 16,100.0
+TRWGT17,Teacher BRR-Fay Replicate Weight 17,100.0
+TRWGT18,Teacher BRR-Fay Replicate Weight 18,100.0
+TRWGT19,Teacher BRR-Fay Replicate Weight 19,100.0
+TRWGT20,Teacher BRR-Fay Replicate Weight 20,100.0
+TRWGT21,Teacher BRR-Fay Replicate Weight 21,100.0
+TRWGT22,Teacher BRR-Fay Replicate Weight 22,100.0
+TRWGT23,Teacher BRR-Fay Replicate Weight 23,100.0
+TRWGT24,Teacher BRR-Fay Replicate Weight 24,100.0
+TRWGT25,Teacher BRR-Fay Replicate Weight 25,100.0
+TRWGT26,Teacher BRR-Fay Replicate Weight 26,100.0
+TRWGT27,Teacher BRR-Fay Replicate Weight 27,100.0
+TRWGT28,Teacher BRR-Fay Replicate Weight 28,100.0
+TRWGT29,Teacher BRR-Fay Replicate Weight 29,100.0
+TRWGT30,Teacher BRR-Fay Replicate Weight 30,100.0
+TRWGT31,Teacher BRR-Fay Replicate Weight 31,100.0
+TRWGT32,Teacher BRR-Fay Replicate Weight 32,100.0
+TRWGT33,Teacher BRR-Fay Replicate Weight 33,100.0
+TRWGT34,Teacher BRR-Fay Replicate Weight 34,100.0
+TRWGT35,Teacher BRR-Fay Replicate Weight 35,100.0
+TRWGT36,Teacher BRR-Fay Replicate Weight 36,100.0
+TRWGT37,Teacher BRR-Fay Replicate Weight 37,100.0
+TRWGT38,Teacher BRR-Fay Replicate Weight 38,100.0
+TRWGT39,Teacher BRR-Fay Replicate Weight 39,100.0
+TRWGT40,Teacher BRR-Fay Replicate Weight 40,100.0
+TRWGT41,Teacher BRR-Fay Replicate Weight 41,100.0
+TRWGT42,Teacher BRR-Fay Replicate Weight 42,100.0
+TRWGT43,Teacher BRR-Fay Replicate Weight 43,100.0
+TRWGT44,Teacher BRR-Fay Replicate Weight 44,100.0
+TRWGT45,Teacher BRR-Fay Replicate Weight 45,100.0
+TRWGT46,Teacher BRR-Fay Replicate Weight 46,100.0
+TRWGT47,Teacher BRR-Fay Replicate Weight 47,100.0
+TRWGT48,Teacher BRR-Fay Replicate Weight 48,100.0
+TRWGT49,Teacher BRR-Fay Replicate Weight 49,100.0
+TRWGT50,Teacher BRR-Fay Replicate Weight 50,100.0
+TRWGT51,Teacher BRR-Fay Replicate Weight 51,100.0
+TRWGT52,Teacher BRR-Fay Replicate Weight 52,100.0
+TRWGT53,Teacher BRR-Fay Replicate Weight 53,100.0
+TRWGT54,Teacher BRR-Fay Replicate Weight 54,100.0
+TRWGT55,Teacher BRR-Fay Replicate Weight 55,100.0
+TRWGT56,Teacher BRR-Fay Replicate Weight 56,100.0
+TRWGT57,Teacher BRR-Fay Replicate Weight 57,100.0
+TRWGT58,Teacher BRR-Fay Replicate Weight 58,100.0
+TRWGT59,Teacher BRR-Fay Replicate Weight 59,100.0
+TRWGT60,Teacher BRR-Fay Replicate Weight 60,100.0
+TRWGT61,Teacher BRR-Fay Replicate Weight 61,100.0
+TRWGT62,Teacher BRR-Fay Replicate Weight 62,100.0
+TRWGT63,Teacher BRR-Fay Replicate Weight 63,100.0
+TRWGT64,Teacher BRR-Fay Replicate Weight 64,100.0
+TRWGT65,Teacher BRR-Fay Replicate Weight 65,100.0
+TRWGT66,Teacher BRR-Fay Replicate Weight 66,100.0
+TRWGT67,Teacher BRR-Fay Replicate Weight 67,100.0
+TRWGT68,Teacher BRR-Fay Replicate Weight 68,100.0
+TRWGT69,Teacher BRR-Fay Replicate Weight 69,100.0
+TRWGT70,Teacher BRR-Fay Replicate Weight 70,100.0
+TRWGT71,Teacher BRR-Fay Replicate Weight 71,100.0
+TRWGT72,Teacher BRR-Fay Replicate Weight 72,100.0
+TRWGT73,Teacher BRR-Fay Replicate Weight 73,100.0
+TRWGT74,Teacher BRR-Fay Replicate Weight 74,100.0
+TRWGT75,Teacher BRR-Fay Replicate Weight 75,100.0
+TRWGT76,Teacher BRR-Fay Replicate Weight 76,100.0
+TRWGT77,Teacher BRR-Fay Replicate Weight 77,100.0
+TRWGT78,Teacher BRR-Fay Replicate Weight 78,100.0
+TRWGT79,Teacher BRR-Fay Replicate Weight 79,100.0
+TRWGT80,Teacher BRR-Fay Replicate Weight 80,100.0
+TRWGT81,Teacher BRR-Fay Replicate Weight 81,100.0
+TRWGT82,Teacher BRR-Fay Replicate Weight 82,100.0
+TRWGT83,Teacher BRR-Fay Replicate Weight 83,100.0
+TRWGT84,Teacher BRR-Fay Replicate Weight 84,100.0
+TRWGT85,Teacher BRR-Fay Replicate Weight 85,100.0
+TRWGT86,Teacher BRR-Fay Replicate Weight 86,100.0
+TRWGT87,Teacher BRR-Fay Replicate Weight 87,100.0
+TRWGT88,Teacher BRR-Fay Replicate Weight 88,100.0
+TRWGT89,Teacher BRR-Fay Replicate Weight 89,100.0
+TRWGT90,Teacher BRR-Fay Replicate Weight 90,100.0
+TRWGT91,Teacher BRR-Fay Replicate Weight 91,100.0
+TRWGT92,Teacher BRR-Fay Replicate Weight 92,100.0
+TRWGT93,Teacher BRR-Fay Replicate Weight 93,100.0
+TRWGT94,Teacher BRR-Fay Replicate Weight 94,100.0
+TRWGT95,Teacher BRR-Fay Replicate Weight 95,100.0
+TRWGT96,Teacher BRR-Fay Replicate Weight 96,100.0
+TRWGT97,Teacher BRR-Fay Replicate Weight 97,100.0
+TRWGT98,Teacher BRR-Fay Replicate Weight 98,100.0
+TRWGT99,Teacher BRR-Fay Replicate Weight 99,100.0
+TRWGT100,Teacher BRR-Fay Replicate Weight 100,100.0
+VERSION,Version,100.0
+IEADATE,Date,100.0
