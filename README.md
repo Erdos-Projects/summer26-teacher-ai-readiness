@@ -4,7 +4,7 @@ An Erdős Institute Summer 2026 data-science project using the **OECD TALIS 2024
 (278,383 teachers, 55 countries/education systems). We model teachers' AI use in two parts and
 identify what drives it.
 
-**Team:** Ruiping Huang (data preparation, EDA) · Elif Yegenoglu (modeling, presentation) · Dominic Kwesi Quainoo
+**Team:** [Ruiping Huang](https://github.com/ruiping935) ·[Elif Yegenoglu](https://github.com/elifyegenoglu1)  · Dominic Kwesi Quainoo
 
 ## Research questions
 
