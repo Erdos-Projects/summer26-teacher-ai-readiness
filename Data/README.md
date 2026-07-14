@@ -20,7 +20,7 @@ The folder contains all the files this project needs:
 | `ttgintt4.sav`, `tcgintt4.sav` | `Data/SPSS/` | `Model/01_build_dataset.ipynb` (only if rebuilding from raw) |
 | `ttgintt4.csv` (semicolon-delimited, ~616 MB) | `Data/CSV/` | the EDA notebook |
 
-If you just want to run the models: grab the merged 'teacher_principal_named_columns.csv' CSV, put it in `Data/output/`, done.
+If you just want to run the models: grab the merged CSV named 'teacher_principal_named_columns.csv' , put it in `Data/output/`, done.
 
 ### Option B — download from OECD (the original source)
 https://www.oecd.org/en/data/datasets/talis-2024-database.html#data
