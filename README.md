@@ -13,9 +13,9 @@ Dominic Kwesi Quainoo
 
 ## Research questions
 
-- **RQ1 — Adoption:** Which factors predict whether a teacher used AI in their teaching in the last
+- **RQ1 - Adoption:** Which factors predict whether a teacher used AI in their teaching in the last
   12 months? (TT4G36, binary; n = 75,817)
-- **RQ2 — Depth:** Among teachers who use AI, whose use reaches students directly?
+- **RQ2 - Scope of Adoption:** Among teachers who use AI, whose use reaches students directly?
   (TT4G37 items A/G/H; n = 30,689)
 
 ## Key results
