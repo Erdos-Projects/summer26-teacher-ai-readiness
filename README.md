@@ -27,25 +27,25 @@ identify what drives it.
 The EDA screen across 26 candidate predictors already previews the split — AI-focused learning and
 benefit beliefs correlate strongly with adoption but far less with student-facing use:
 
-![Predictor correlations with both outcomes (EDA)](figures/cross_rq_all26_spearman_dumbbell_comparison.png)
+![Predictor correlations with both outcomes (EDA)](Figures/cross_rq_all26_spearman_dumbbell_comparison.png)
 
 The models sharpen that picture — what predicts adopting AI is not what predicts using it with
 students:
 
-![What predicts adopting AI vs. using it with students](figures/part1_vs_part2_importance.png)
+![What predicts adopting AI vs. using it with students](Figures/part1_vs_part2_importance.png)
 
-![Within countries, adoption is predictable — depth is not](figures/within_country_contrast.png)
+![Within countries, adoption is predictable — depth is not](Figures/within_country_contrast.png)
 
 What that use looks like, per country — teacher-facing purposes (summarising, lesson plans)
 dominate everywhere; student-facing purposes vary far more (click to enlarge):
 
-<a href="figures/rq2_top10_country_by_sample_size_ai_use_purposes_heatmap_9items.png">
-<img src="figures/rq2_top10_country_by_sample_size_ai_use_purposes_heatmap_9items.png" alt="AI-use purposes by top-10 country (click to enlarge)" width="750">
+<a href="Figures/rq2_top10_country_by_sample_size_ai_use_purposes_heatmap_9items.png">
+<img src="Figures/rq2_top10_country_by_sample_size_ai_use_purposes_heatmap_9items.png" alt="AI-use purposes by top-10 country (click to enlarge)" width="750">
 </a>
 
 And the adoption model recovers real cross-country variation:
 
-![Predicted vs actual adoption by country](figures/country_pred_vs_actual_pretty.png)
+![Predicted vs actual adoption by country](Figures/country_pred_vs_actual_pretty.png)
 
 Full story: `Erdos Project Presentation - Teacher's AI Adoption.pdf` + the executive summary PDF.
 
@@ -115,7 +115,7 @@ fixed effects:
 | Received AI training | 2.02*** | 1.14*** |
 | Age group | 0.83*** | 1.21*** |
 
-![Same features, two outcomes — odds ratio forest plot](figures/forest_plot_both_parts.png)
+![Same features, two outcomes — odds ratio forest plot](Figures/forest_plot_both_parts.png)
 
 ## Limitations
 
