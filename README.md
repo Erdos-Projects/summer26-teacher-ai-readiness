@@ -1,180 +1,90 @@
-# summer26-teacher-ai-readiness
+# Which Teachers Adopt AI — and Which Ones Trust It With Students?
 
-**Predicting Teachers' Use of AI in Teaching**
+An Erdős Institute Summer 2026 data-science project using the **OECD TALIS 2024** teacher survey
+(278,383 teachers, 55 countries/education systems). We model teachers' AI use in two parts and
+identify what drives it.
 
-An Erdos Institute Summer 2026 data-science group project. Using the TALIS 2024
-teacher questionnaire, we build and interpret a model of how much teachers use
-artificial intelligence in their teaching, and identify which teacher
-characteristics and attitudes drive that use.
-
----
+**Team:** Ruiping Huang (data preparation, EDA) · Elif Yegenoglu (modeling, presentation) · Dominic Kwesi Quainoo
 
 ## Research questions
 
-1. **Which factors best predict teachers' use of AI in teaching?**
-2. **What are the most important predictors?**
+- **RQ1 — Adoption:** Which factors predict whether a teacher used AI in their teaching in the last
+  12 months? (TT4G36, binary; n = 75,817)
+- **RQ2 — Depth:** Among teachers who use AI, whose use reaches students directly?
+  (TT4G37 items A/G/H; n = 30,689)
 
-The first asks whether AI use is predictable from teacher attitudes,
-professional learning, and background. The second turns the model into an
-answer — ranking predictors by importance so the result is interpretable, not
-just a black-box score.
+## Key results
 
----
+- Adoption is predictable: **AUC 0.833 ± 0.001**. Perceived usefulness (AI-benefit beliefs,
+  OR 2.31) and AI-specific training (OR 2.02) lead; three questions recover almost the whole
+  model (AUC 0.828 of 0.836).
+- Depth is harder: **AUC 0.745**, and the structure inverts — training's contribution collapses
+  and country context becomes the top predictor. Within countries, adoption stays predictable
+  (median AUC 0.818) while depth does not (0.653).
+- Risk beliefs, from the same survey battery as benefit beliefs, predict almost nothing — the
+  asymmetry that answers the circularity concern.
 
-## Data
+Full story: `Erdos Project Presentation - Teacher's AI Adoption.pdf` + the executive summary PDF.
 
+## Quick start
 
-## Data
+```
+pip install -r requirements.txt
+```
 
-This project uses the OECD TALIS 2024 teacher and principal files.
-The raw files are too large for GitHub. Two options:
-
-1. **Download from source (OECD):** https://www.oecd.org/en/data/datasets/talis-2024-database.html
-   Place the teacher (`*tgintt4.csv`) and principal (`*tcintt4.csv`) files in `Data/`,
-   then run `Model_v5.ipynb` cell 0 to build `teacher_principal_named_columns.csv`.
-
-2. **Prebuilt merged file (our copy):** [Google Drive link]
-   Place in `Data/output/` and skip the build step.
-
-- **Combined teacher file `ttgintt4.csv`** — 278,383 teachers, 55 countries, all
-  school levels (ISCED 1/2/3: primary, lower-secondary, upper-secondary).
-- Semicolon-delimited (`sep=";"`), 630 columns, ~616 MB.
-- **Raw data is not in the repo** (too large) — it is gitignored and kept
-  locally. Processed outputs are regenerated from the cleaning pipeline.
-
----
-
-## Outcome: `ai_use_score` (0–9)
-
-Question 37 asks teachers whether they used AI for each of nine teaching
-purposes (assessing work, planning lessons, summarising a topic, skill practice,
-etc.). The outcome is the **count of "Yes" answers across those nine items** — a
-0–9 measure of *how many ways* a teacher uses AI.
-
-- **Gate (Q36):** "Used AI in the last 12 months?" Teachers who answer "No" get
-  code 6 ("logically not applicable") on the nine items; codes 2 (No) and 6 both
-  count as 0, so a non-user correctly scores 0.
-- **Analysis sample:** the AI module was administered to a **random ~32% of
-  teachers** in every country (split-form design), so the outcome is only
-  defined for those **89,818 teachers (32.3%)**. Because the subsample is
-  random, restricting to it does not bias the analysis.
-- **Distribution:** mean **1.86**, median **0**, and **~59.7% of administered
-  teachers score 0** → the outcome is strongly **zero-inflated**, which shapes
-  the modeling choice below.
-
----
-
-## Cleaning plan
-
-Implemented in `notebooks/eda_combined.ipynb`; decisions recorded in
-`reports/cleaning_eda_summary.md`.
-
-1. **Select columns.** Read only the ~85 project columns (of 630) from the
-   616 MB CSV via `usecols` for speed and memory.
-2. **Rename.** Map cryptic TALIS codes to readable names via a data dictionary
-   (`TT4G37A` → `aiuse_assess`, `TT4G35A` → `ai_benefit_*`, …).
-3. **Recode missing/special codes to `NaN`.** Rule of thumb: keep only the valid
-   codes listed in the codebook, everything else → `NaN`.
-   - `6` logically N/A, `8` not administered, `9` omitted.
-   - Q35 belief items also use `5` = "I don't know" → `NaN`.
-   - Continuous vars use `998/999`; the survey weight `TCHWGT` uses `9998/9999`.
-   - *Exception:* on the outcome items, code 6 maps to **0**, not `NaN`.
-4. **Build the outcome** `ai_use_score` and define the analysis sample (teachers
-   administered the AI module).
-5. **Save** `data/processed/ttgintt4_clean.parquet` (all rows) and
-   `ttgintt4_analysis_sample.parquet` (administered teachers only).
-
----
-
-## Predictors
-
-**Usable set (observed together with the outcome):**
-
-- **AI professional learning received** — `ai_pl_received` (Q21G).
-- **AI attitudes** — AI benefit beliefs and AI risk beliefs (Q35 A–J).
-- **Demographics / derived** — age, teaching experience, education, employment
-  status, contract type, qualification, teacher leadership, hours worked, etc.
-  (Gender is usable but only ~39% covered — it is also split-form.)
-
-> ### ⚠️ Flagged finding — the split questionnaire limits predictors
-> TALIS 2024 rotates question blocks across questionnaire forms. The AI module
-> (Q21G, Q35, Q36, Q37) sits on a **different form** from the digital-skills
-> blocks, so several planned predictors are **~64% present overall but 0% present
-> among AI-module teachers** and therefore **cannot be used as individual-level
-> predictors** of AI use:
-> **Q33** digital self-efficacy · **Q34** digital-tool beliefs · **Q52** digital
-> teaching practices · **Q47** class composition · **Q24** AI PL-need.
-> A school-/country-level aggregate workaround is possible but is a separate,
-> more advanced design.
-
----
-
-## Analysis & modeling plan
-
-**1. EDA** (`notebooks/eda_combined.ipynb`, outputs in `results/eda/`): coverage
-by country, missingness, the outcome distribution, AI use by purpose, group
-means, and correlations with the outcome (Spearman). Preview signals:
-
-- **AI professional learning received** is by far the strongest correlate
-  (mean score 3.21 if received vs 0.98 if not).
-- **AI benefit beliefs** are positively associated (ρ ≈ +0.26 to +0.38);
-  demographic effects are weak.
-
-**2. Modeling.** Because the outcome is a zero-inflated count, plain OLS is
-biased by the spike at 0. We use a **two-part / hurdle approach**:
-
-- **(a) "Any use"** — classify score > 0 vs 0.
-- **(b) Intensity** — model how many uses among teachers who use AI at all
-  (or fit a single zero-inflated / hurdle count model).
-
-**3. Evaluation (KPIs).**
-
-- Intensity: **RMSE / MAE** vs a mean/median baseline.
-- "Any use": **accuracy / F1** vs a majority-class baseline.
-
-**4. Interpretation (RQ2).** Read feature importances / coefficients to rank the
-most important predictors.
-
-**Caveats.**
-
-- **Reverse causality** — AI beliefs and AI professional learning are tightly
-  coupled to use; report predictors as *associated with*, not *causing*, AI use.
-- **Survey weights** (`TCHWGT`) are cleaned but not yet applied; decide whether
-  population-weighted estimates are needed for final figures.
-
----
+1. Get the data (two routes, see `Data/README.md`): download the prebuilt merged file from our
+   Drive link into `Data/output/`, **or** download the raw TALIS files from OECD and run
+   `Model/01_build_dataset.ipynb` once.
+2. Open any numbered notebook and **Run All** — paths are repo-relative and work on any machine.
 
 ## Repository structure
 
 ```
-.
-├── notebooks/
-│   └── eda_combined.ipynb      # cleaning + EDA, runnable top-to-bottom
-├── talis_clean/                # reusable cleaning code (Python package)
-├── reports/
-│   └── cleaning_eda_summary.md # team-facing cleaning & EDA summary
-├── results/
-│   └── eda/                    # figures and tables
-├── data/
-│   ├── raw/                    # local only — gitignored (too large)
-│   └── processed/              # parquet outputs — gitignored, regenerate
-├── tests/
-├── requirements.txt
-└── README.md
+├── EDA/                      # exploratory analysis (Ruiping)
+│   └── TALIS_EDA_Final.ipynb          #   reads the OECD teacher CSV + codebook, writes to EDA/output/
+├── Model/                    # modeling, results, robustness (Elif)
+│   ├── 01_build_dataset.ipynb        # raw .sav -> merged CSV (run once)
+│   ├── 02_model.ipynb                # samples, split, tiers, bake-offs, Part 2 model
+│   ├── 03_results.ipynb              # every figure/table in the deck
+│   ├── 04_robustness.ipynb           # null shuffles, seed stability, sensitivity, balance
+│   ├── 05_school_block_check.ipynb   # school variables: value vs cost
+│   ├── 06_weight_sensitivity.ipynb   # TCHWGT weighted vs unweighted
+│   ├── 07_experiments.ipynb          # runnable versions of the key experiments
+│   ├── experiments.ipynb             # archival journey with original outputs (receipts)
+│   └── README.md                     # run order and details
+├── Data/                     # codebook + small CSVs (big files gitignored — see Data/README.md)
+└── presentation + executive summary PDFs
 ```
 
----
+Notebooks 03/04/05/07 start with setup cells copied from 02 so each runs standalone.
 
-## Setup
+## Data
 
-```bash
-# Python environment (course conda env or a fresh venv)
-pip install -r requirements.txt
+- Source: [OECD TALIS 2024](https://www.oecd.org/en/data/datasets/talis-2024-database.html) —
+  teacher and principal files, all ISCED levels (primary, lower and upper secondary).
+- Raw files (~0.4–0.6 GB each) and the 1.6 GB merged file are **gitignored**; the repo ships
+  instructions, not data. `Data/README.md` covers placement (`Data/SPSS/` for .sav,
+  `Data/CSV/` for the OECD CSV the EDA uses) and the Drive link for the prebuilt merge.
+- **Split-form design:** the AI module (Q35/Q36/Q37) was administered to a random ~1/3 of
+  teachers (Form A). Assignment is random across countries (checked), so restricting to the
+  administered sample is unbiased — but it gates several would-be predictors that sit on other
+  forms, and it means estimates describe the analytic sample rather than national populations.
 
-# Open the cleaning + EDA notebook
-jupyter lab notebooks/eda_combined.ipynb   # Kernel ▸ Restart & Run All
-```
+## Methods in one paragraph
 
-Raw TALIS data is **not** included (gitignored). Place the TALIS 2024 teacher
-CSV locally, point the notebook's data path at it, and run the notebook to
-regenerate the processed parquet files and EDA outputs.
+Outcomes: RQ1 = TT4G36 yes/no; RQ2 = any of three student-facing purposes (assess/mark work,
+review student data, skill practice) among AI users, with a sensitivity check for two ambiguous
+items. Features: 18 teacher-level variables including two belief composites built from the Q35
+battery ("don't know" → 2.5 midpoint). Split: school-grouped 70/30 (schools never straddle
+train/test; all |SMD| < 0.03). Model: GradientBoosting, winner of a grouped 5-fold CV bake-off
+across 7 families; odds ratios from school-clustered logistic regressions with country fixed
+effects. Robustness: null-target shuffles (~0.50 both parts), 10-seed stability, outcome-definition
+sensitivity (ρ = 0.93), weighted-vs-unweighted checks.
+
+## Limitations
+
+Self-reported AI use (recall/social-desirability); Form-A subsample describes the analytic sample,
+not national populations; school-level context unavailable across all systems, so country effects
+absorb policy/infrastructure/norms; weighted and unweighted results similar except upper-secondary
+estimates, which are weight-sensitive; cross-sectional data — associations, not causes (beliefs and
+use are measured simultaneously; reverse causality is possible).
