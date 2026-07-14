@@ -6,8 +6,10 @@ identify what drives it.
 
 **Team Members:**
 [Ruiping Huang](https://github.com/ruiping935) 
+</a>
 [Elif Yegenoglu](https://github.com/elifyegenoglu1)
-[Dominic Kwesi Quainoo](https://github.com/USERNAME)
+</a>
+Dominic Kwesi Quainoo
 
 ## Research questions
 
