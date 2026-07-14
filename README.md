@@ -1,16 +1,16 @@
- # Which Teachers Adopt AI and Which Ones Trust It With Students?
+# Which Teachers Adopt AI — and Which Ones Trust It With Students?
 
 An Erdős Institute Summer 2026 data-science project using the **OECD TALIS 2024** teacher survey
 (278,383 teachers, 55 countries/education systems). We model teachers' AI use in two parts and
 identify what drives it.
 
-**Team:** [Ruiping Huang](https://github.com/ruiping935) ·[Elif Yegenoglu](https://github.com/elifyegenoglu1) · [Dominic Kwesi Quainoo](https://github.com/USERNAME)
+**Team:** [Ruiping Huang](https://github.com/USERNAME) (data preparation, EDA) · [Elif Yegenoglu](https://github.com/USERNAME) (modeling, presentation) · [Dominic Kwesi Quainoo](https://github.com/USERNAME)
 
 ## Research questions
 
-- **RQ1 - Adoption:** Which factors predict whether a teacher used AI in their teaching in the last
+- **RQ1 — Adoption:** Which factors predict whether a teacher used AI in their teaching in the last
   12 months? (TT4G36, binary; n = 75,817)
-- **RQ2 -  Depth:** Among teachers who use AI, whose use reaches students directly?
+- **RQ2 — Depth:** Among teachers who use AI, whose use reaches students directly?
   (TT4G37 items A/G/H; n = 30,689)
 
 ## Key results
@@ -66,6 +66,7 @@ pip install -r requirements.txt
 ├── EDA/                      # exploratory analysis (Ruiping)
 │   └── TALIS_EDA_Final.ipynb         #   reads the OECD teacher CSV + codebook, writes to EDA/output/
 ├── Model/                    # modeling, results, robustness (Elif)
+│   ├── output/                       # figures the notebooks generate (gitignored)
 │   ├── 01_build_dataset.ipynb        # raw .sav -> merged CSV (run once)
 │   ├── 02_model.ipynb                # samples, split, tiers, bake-offs, Part 2 model
 │   ├── 03_results.ipynb              # every figure/table in the deck
@@ -75,7 +76,7 @@ pip install -r requirements.txt
 │   ├── 07_experiments.ipynb          # runnable versions of the key experiments
 │   ├── experiments.ipynb             # archival journey with original outputs (receipts)
 │   └── README.md                     # run order and details
-├── Data/                     # codebook + small CSVs (big files gitignored — see Data/README.md)
+├── Data/                     # codebook + small CSVs; merged data in Data/output (gitignored)
 ├── figures/                  # the figures embedded in this README
 └── presentation + executive summary PDFs
 ```
@@ -123,5 +124,3 @@ not national populations; school-level context unavailable across all systems, s
 absorb policy/infrastructure/norms; weighted and unweighted results similar except upper-secondary
 estimates, which are weight-sensitive; cross-sectional data — associations, not causes (beliefs and
 use are measured simultaneously; reverse causality is possible).
-└── presentation + executive summary PDFs
-```
