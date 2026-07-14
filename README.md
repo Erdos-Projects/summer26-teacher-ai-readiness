@@ -26,8 +26,7 @@ identify what drives it.
 
 The EDA screen across 26 candidate predictors already previews the split — AI-focused learning and
 benefit beliefs correlate strongly with adoption but far less with student-facing use:
-
-![Predictor correlations with both outcomes (EDA)](Figures/cross_rq_all26_spearman_dumbbell_comparison.png)
+<img src="Figures/rq2_top10_country_by_sample_size_ai_use_purposes_heatmap_9items.png" alt="AI-use purposes by top-10 country (click to enlarge)" width="750">
 
 The models sharpen that picture — what predicts adopting AI is not what predicts using it with
 students:
@@ -40,7 +39,7 @@ What that use looks like, per country — teacher-facing purposes (summarising, 
 dominate everywhere; student-facing purposes vary far more (click to enlarge):
 
 <a href="Figures/rq2_top10_country_by_sample_size_ai_use_purposes_heatmap_9items.png">
-<img src="Figures/rq2_top10_country_by_sample_size_ai_use_purposes_heatmap_9items.png" alt="AI-use purposes by top-10 country (click to enlarge)" width="750">
+
 </a>
 
 And the adoption model recovers real cross-country variation:
