@@ -23,6 +23,20 @@ just a black-box score.
 
 ## Data
 
+
+## Data
+
+This project uses the OECD TALIS 2024 teacher and principal files.
+The raw files are too large for GitHub. Two options:
+
+1. **Download from source (OECD):** https://www.oecd.org/en/data/datasets/talis-2024-database.html
+   Place the teacher (`*tgintt4.csv`) and principal (`*pgintt4.csv`) files in `Data/`,
+   then run `Model_v5.ipynb` cell 0 to build `teacher_principal_named_columns.csv`.
+
+2. **Prebuilt merged file (our copy):** [Google Drive link]
+   Place in `Data/output/` and skip the build step.
+
+
 [TALIS 2024](https://www.oecd.org/en/about/programmes/talis.html) (Teaching and
 Learning International Survey, OECD), teacher questionnaire.
 
