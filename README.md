@@ -1,10 +1,10 @@
- [Ruiping Huang](https://github.com/ruiping935) ·[Elif Yegenoglu](https://github.com/elifyegenoglu1)  # Which Teachers Adopt AI — and Which Ones Trust It With Students?
+ # Which Teachers Adopt AI — and Which Ones Trust It With Students?
 
 An Erdős Institute Summer 2026 data-science project using the **OECD TALIS 2024** teacher survey
 (278,383 teachers, 55 countries/education systems). We model teachers' AI use in two parts and
 identify what drives it.
 
-**Team:** [Ruiping Huang](https://github.com/USERNAME) (data preparation, EDA) · [Elif Yegenoglu](https://github.com/USERNAME) (modeling, presentation) · [Dominic Kwesi Quainoo](https://github.com/USERNAME)
+**Team:** [Ruiping Huang](https://github.com/ruiping935) ·[Elif Yegenoglu](https://github.com/elifyegenoglu1) · [Dominic Kwesi Quainoo](https://github.com/USERNAME)
 
 ## Research questions
 
