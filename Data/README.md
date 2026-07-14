@@ -9,25 +9,26 @@
 
 Everything below is gitignored. Get it one of two ways.
 
-### Option A — download from OECD
-Source: https://www.oecd.org/en/data/datasets/talis-2024-database.html#data
+### Option A — our Google Drive (fastest, has everything)
+https://drive.google.com/drive/folders/1yukQZ_WQtgSw00vbXMJJwSFNGBVheNfd?usp=drive_link
 
-Note: OECD asks you to fill a short registration form (name, institution, intended use)
-before the download links work. Free, takes a couple of minutes.
+The folder contains all the files this project needs:
 
-Which files to take:
-- **SPSS, Teachers** and **SPSS, Principals** (compressed) — needed by
-  `Model/01_build_dataset.ipynb`. Unzip and put `ttgintt4.sav` and `tcgintt4.sav`
-  in `Data/SPSS/`.
-- **CSV, Teachers** (compressed) — needed by the EDA notebook. Unzip and put
-  `ttgintt4.csv` in `Data/CSV/`. It is semicolon-delimited (~616 MB).
+| File | Put it in | Used by |
+|---|---|---|
+| `teacher_principal_named_columns.csv` (~1.6 GB) | `Data/output/` | Model notebooks 02-07 (skips the build step) |
+| `ttgintt4.sav`, `tcgintt4.sav` | `Data/SPSS/` | `Model/01_build_dataset.ipynb` (only if rebuilding from raw) |
+| `ttgintt4.csv` (semicolon-delimited, ~616 MB) | `Data/CSV/` | the EDA notebook |
 
-Then run `Model/01_build_dataset.ipynb` once to build the merged file.
+If you just want to run the models: grab the merged 'teacher_principal_named_columns.csv' CSV, put it in `Data/output/`, done.
 
-### Option B — prebuilt merged file (skips the OECD form and the build step)
-Download `teacher_principal_named_columns.csv` (~1.6 GB) from our Google Drive: **[ADD LINK]**
-Put it in `Data/output/`. This covers the Model notebooks (02-07); the EDA still
-needs the CSV from Option A.
+### Option B — download from OECD (the original source)
+https://www.oecd.org/en/data/datasets/talis-2024-database.html#data
+
+OECD asks you to fill a short registration form (name, institution, intended use)
+before the download links work. Take **SPSS Teachers + Principals** (for the build)
+and **CSV Teachers** (for the EDA), then place them as in the table above and run
+`Model/01_build_dataset.ipynb` once to create the merged file.
 
 ## Layout after setup
 ```
