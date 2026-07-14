@@ -1,5 +1,7 @@
 ﻿Data/SPSS/
+Data/CSV/
 Data/output/
 teacher_principal_named_columns.csv
+EDA/output/
 .ipynb_checkpoints/
 __pycache__/
