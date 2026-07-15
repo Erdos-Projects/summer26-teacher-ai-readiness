@@ -4,19 +4,16 @@ An Erdős Institute Summer 2026 data-science project using the **OECD TALIS 2024
 (278,383 teachers, 55 countries/education systems). We model teachers' AI use in two parts and
 identify what drives it.
 
-**Team Members:**
-</br>
-[Ruiping Huang](https://github.com/ruiping935) 
-</br>
-[Elif Yegenoglu](https://github.com/elifyegenoglu1)
-</br>
+**Team Members:**<br>
+[Ruiping Huang](https://github.com/ruiping935)<br>
+[Elif Yegenoglu](https://github.com/elifyegenoglu1)<br>
 Dominic Kwesi Quainoo
 
 ## Research questions
 
-- **RQ1 - Adoption:** Which factors predict whether a teacher used AI in their teaching in the last
-  12 months? (TT4G36, binary; n = 75,817)
-- **RQ2 - Scope of Adoption:** Among teachers who use AI, whose use reaches students directly?
+- **RQ1 - Adoption:** Which factors predict whether a teacher used AI in their teaching in the
+  last 12 months? (TT4G36, binary; n = 75,817)
+- **RQ2 - Scope of adoption:** Among teachers who use AI, whose use reaches students directly?
   (TT4G37 items A/G/H; n = 30,689)
 
 ## Key results
@@ -24,35 +21,29 @@ Dominic Kwesi Quainoo
 - Adoption is predictable: **AUC 0.833 ± 0.001**. Perceived usefulness (AI-benefit beliefs,
   OR 2.31) and AI-specific training (OR 2.02) lead; three questions recover almost the whole
   model (AUC 0.828 of 0.836).
-- Depth is harder: **AUC 0.745**, and the structure inverts — training's contribution collapses
+- Scope is harder: **AUC 0.745**, and the structure inverts — training's contribution collapses
   and country context becomes the top predictor. Within countries, adoption stays predictable
-  (median AUC 0.818) while depth does not (0.653).
+  (median AUC 0.818) while student-facing use does not (0.653).
 - Risk beliefs, from the same survey battery as benefit beliefs, predict almost nothing — the
   asymmetry that answers the circularity concern.
 
-The EDA screen across 26 candidate predictors already previews the split — AI-focused learning and
-benefit beliefs correlate strongly with adoption but far less with student-facing use:
-<img src="Figures/rq2_top10_country_by_sample_size_ai_use_purposes_heatmap_9items.png" alt="AI-use purposes by top-10 country (click to enlarge)" width="750">
-
-The models sharpen that picture — what predicts adopting AI is not what predicts using it with
-students:
+What predicts adopting AI is not what predicts using it with students:
 
 ![What predicts adopting AI vs. using it with students](Figures/part1_vs_part2_importance.png)
 
-![Within countries, adoption is predictable — depth is not](Figures/within_country_contrast.png)
+![Within countries, adoption is predictable — student-facing use is not](Figures/within_country_contrast.png)
 
 What that use looks like, per country — teacher-facing purposes (summarising, lesson plans)
-dominate everywhere; student-facing purposes vary far more (click to enlarge):
+dominate everywhere, while student-facing purposes vary far more:
 
-<a href="Figures/rq2_top10_country_by_sample_size_ai_use_purposes_heatmap_9items.png">
-
-</a>
+![AI-use purposes by top-10 country](Figures/rq2_top10_country_by_sample_size_ai_use_purposes_heatmap_9items.png)
 
 And the adoption model recovers real cross-country variation:
 
 ![Predicted vs actual adoption by country](Figures/country_pred_vs_actual_pretty.png)
 
-Full story: `Erdos Project Presentation - Teacher's AI Adoption.pdf` + the executive summary PDF.
+The full story: [project presentation (PDF)](Erdos%20Project%20Presentation%20-%20Teacher's%20AI%20Adoption.pdf)
+and the [executive summary (PDF)](Erdos%20Project%20Executive%20Summary.pdf).
 
 ## Quick start
 
@@ -61,7 +52,7 @@ pip install -r requirements.txt
 ```
 
 1. Get the data (two routes, see `Data/README.md`): download the prebuilt merged file from our
-   Drive link into `Data/output/`, **or** download the raw TALIS files from OECD and run
+   Drive folder into `Data/output/`, **or** download the raw TALIS files from OECD and run
    `Model/01_build_dataset.ipynb` once.
 2. Open any numbered notebook and **Run All** — paths are repo-relative and work on any machine.
 
@@ -74,15 +65,15 @@ pip install -r requirements.txt
 │   ├── output/                       # figures the notebooks generate (gitignored)
 │   ├── 01_build_dataset.ipynb        # raw .sav -> merged CSV (run once)
 │   ├── 02_model.ipynb                # samples, split, tiers, bake-offs, Part 2 model
-│   ├── 03_results.ipynb              # every figure/table in the deck
+│   ├── 03_results.ipynb              # every figure and table in the deck
 │   ├── 04_robustness.ipynb           # null shuffles, seed stability, sensitivity, balance
 │   ├── 05_school_block_check.ipynb   # school variables: value vs cost
 │   ├── 06_weight_sensitivity.ipynb   # TCHWGT weighted vs unweighted
 │   ├── 07_experiments.ipynb          # runnable versions of the key experiments
-│   ├── experiments.ipynb             # archival journey with original outputs (receipts)
 │   └── README.md                     # run order and details
+│                      
 ├── Data/                     # codebook + small CSVs; merged data in Data/output (gitignored)
-├── figures/                  # the figures embedded in this README
+├── Figures/                  # the figures embedded in this README
 └── presentation + executive summary PDFs
 ```
 
@@ -92,9 +83,9 @@ Notebooks 03/04/05/07 start with setup cells copied from 02 so each runs standal
 
 - Source: [OECD TALIS 2024](https://www.oecd.org/en/data/datasets/talis-2024-database.html) —
   teacher and principal files, all ISCED levels (primary, lower and upper secondary).
-- Raw files (~0.4–0.6 GB each) and the 1.6 GB merged file are **gitignored**; the repo ships
-  instructions, not data. `Data/README.md` covers placement (`Data/SPSS/` for .sav,
-  `Data/CSV/` for the OECD CSV the EDA uses) and the Drive link for the prebuilt merge.
+- Raw files (~0.4–0.6 GB each) and the 1.6 GB merged file are **gitignored**; the repository
+  ships instructions, not data. `Data/README.md` covers placement (`Data/SPSS/` for .sav,
+  `Data/CSV/` for the OECD CSV the EDA uses) and the Drive folder with all required files.
 - **Split-form design:** the AI module (Q35/Q36/Q37) was administered to a random ~1/3 of
   teachers (Form A). Assignment is random across countries (checked), so restricting to the
   administered sample is unbiased — but it gates several would-be predictors that sit on other
@@ -109,7 +100,7 @@ battery ("don't know" → 2.5 midpoint). Split: school-grouped 70/30 (schools ne
 train/test; all |SMD| < 0.03). Model: GradientBoosting, winner of a grouped 5-fold CV bake-off
 across 7 families; odds ratios from school-clustered logistic regressions with country fixed
 effects. Robustness: null-target shuffles (~0.50 both parts), 10-seed stability, outcome-definition
-sensitivity (ρ = 0.93), weighted-vs-unweighted checks.
+sensitivity (ρ = 0.93), weighted-vs-unweighted checks in both estimation and evaluation.
 
 The same features, two outcomes — per-SD odds ratios from school-clustered logits with country
 fixed effects:
@@ -124,8 +115,9 @@ fixed effects:
 
 ## Limitations
 
-Self-reported AI use (recall/social-desirability); Form-A subsample describes the analytic sample,
-not national populations; school-level context unavailable across all systems, so country effects
-absorb policy/infrastructure/norms; weighted and unweighted results similar except upper-secondary
-estimates, which are weight-sensitive; cross-sectional data — associations, not causes (beliefs and
-use are measured simultaneously; reverse causality is possible).
+Self-reported AI use (recall and social-desirability bias); the Form-A subsample describes the
+analytic sample, not national populations; school-level context is unavailable across all
+systems, so country effects absorb policy, infrastructure, and norms; weighted and unweighted
+results are similar except upper-secondary estimates, which are weight-sensitive; the data are
+cross-sectional — associations, not causes (beliefs and use are measured simultaneously, and
+reverse causality is possible).
