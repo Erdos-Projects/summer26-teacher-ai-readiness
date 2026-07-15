@@ -26,8 +26,7 @@ and the standardized-mean-difference check.
 from the final model: they provide almost no AUC gain, while requiring complete school data
 reduces the sample unevenly across countries.
 
-**`06_weight_sensitivity.ipynb`** — compares TCHWGT-weighted and unweighted adoption rates by
-ISCED level. Fast; loads only the three columns it requires.
+**`06_weight_sensitivity.ipynb`** — compares TCHWGT-weighted and unweighted adoption rates by SES band, school location, school type and ISCED level. Fast; loads only the three columns it requires.
 
 **`07_experiments.ipynb`** — re-runs the experiments that shaped the final model: trivial
 baselines, models with and without the belief composites, individual belief items versus the
