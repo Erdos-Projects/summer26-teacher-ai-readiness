@@ -6,9 +6,9 @@ identify what drives it.
 
 **Team Members:**
 [Ruiping Huang](https://github.com/ruiping935) 
-</a>
+</br>
 [Elif Yegenoglu](https://github.com/elifyegenoglu1)
-</a>
+</br>
 Dominic Kwesi Quainoo
 
 ## Research questions
