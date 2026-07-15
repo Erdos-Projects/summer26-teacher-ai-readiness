@@ -42,8 +42,8 @@ And the adoption model recovers real cross-country variation:
 
 ![Predicted vs actual adoption by country](Figures/country_pred_vs_actual_pretty.png)
 
-The full story: `Erdos Project Presentation - Teacher's AI Adoption.pdf` and the executive
-summary PDF.
+The full story: [project presentation (PDF)](Erdos%20Project%20Presentation%20-%20Teacher's%20AI%20Adoption.pdf)
+and the [executive summary (PDF)](Erdos%20Project%20Executive%20Summary.pdf).
 
 ## Quick start
 
@@ -70,8 +70,8 @@ pip install -r requirements.txt
 │   ├── 05_school_block_check.ipynb   # school variables: value vs cost
 │   ├── 06_weight_sensitivity.ipynb   # TCHWGT weighted vs unweighted
 │   ├── 07_experiments.ipynb          # runnable versions of the key experiments
-│   ├── experiments.ipynb             # the modeling journey, with original outputs
 │   └── README.md                     # run order and details
+│                      
 ├── Data/                     # codebook + small CSVs; merged data in Data/output (gitignored)
 ├── Figures/                  # the figures embedded in this README
 └── presentation + executive summary PDFs
