@@ -1,4 +1,4 @@
-# Which Teachers Adopt AI — and Which Ones Trust It With Students?
+# Which Teachers Adopt AI and Which Ones Trust It With Students?
 
 An Erdős Institute Summer 2026 data-science project using the **OECD TALIS 2024** teacher survey
 (278,383 teachers, 55 countries/education systems). We model teachers' AI use in two parts and
